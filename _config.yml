@@ -1,0 +1,34 @@
+# Jekyll configuration
+# Use _config.build.yml to override these settings on `grunt build`.
+
+# Note: Grunt handles some Jekyll configuration. If you set something here and
+# it doesn't work, check if it is set in the Gruntfile.
+
+title: 'Ivan Lagunov'
+url: 'http://ivanlagunov.com'
+description: 'Personal web site of Ivan Lagunov'
+
+environment: development
+
+exclude: ['img', 'js', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.svg', '**.ico']
+keep_files: ['perf']
+
+# Publish posts with future date.
+# _config.build.yml sets this to false on `grunt build`
+future: true
+
+# Compile posts in the _drafts directory.
+# _config.build.yml sets this to false on `grunt build`
+show_drafts: true
+
+category_title_prefix: ''
+category_dir: /
+
+permalink: /:year/:month/:title/
+paginate: 5
+
+# disable this with ''
+excerpt_separator: ''
+
+# Use Pygments to highlight code blocks
+highlighter: pygments
