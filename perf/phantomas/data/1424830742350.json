@@ -3,33 +3,33 @@
   "metrics": {
     "requests": {
       "values": [
-        7,
-        7,
-        8,
-        9,
-        10,
+        6,
+        6,
+        6,
+        6,
+        6,
         null
       ],
-      "sum": 41,
-      "min": 7,
-      "max": 10,
-      "median": 8,
-      "average": 8.2
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
     },
     "gzipRequests": {
       "values": [
-        4,
-        4,
-        4,
-        4,
-        4,
+        3,
+        3,
+        3,
+        3,
+        3,
         null
       ],
-      "sum": 20,
-      "min": 4,
-      "max": 4,
-      "median": 4,
-      "average": 4
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
     },
     "postRequests": {
       "values": [
@@ -78,78 +78,78 @@
     },
     "bodySize": {
       "values": [
-        62746,
-        62746,
-        62753,
-        64213,
-        68594,
+        42009,
+        42009,
+        42009,
+        42009,
+        61610,
         null
       ],
-      "sum": 321052,
-      "min": 62746,
-      "max": 68594,
-      "median": 62753,
-      "average": 64210.4
+      "sum": 229646,
+      "min": 42009,
+      "max": 61610,
+      "median": 42009,
+      "average": 45929.2
     },
     "contentLength": {
       "values": [
-        132440,
-        132441,
-        132442,
-        132443,
-        133900,
+        111696,
+        111696,
+        111696,
+        111696,
+        124836,
         null
       ],
-      "sum": 663666,
-      "min": 132440,
-      "max": 133900,
-      "median": 132442,
-      "average": 132733.2
+      "sum": 571620,
+      "min": 111696,
+      "max": 124836,
+      "median": 111696,
+      "average": 114324
     },
     "httpTrafficCompleted": {
       "values": [
-        3601574,
-        3601853,
-        3601855,
-        3601881,
-        3601960,
+        3600691,
+        3600704,
+        3600706,
+        3600866,
+        3600986,
         null
       ],
-      "sum": 18009123,
-      "min": 3601574,
-      "max": 3601960,
-      "median": 3601855,
-      "average": 3601824.6
+      "sum": 18003953,
+      "min": 3600691,
+      "max": 3600986,
+      "median": 3600706,
+      "average": 3600790.6
     },
     "timeToFirstByte": {
       "values": [
-        231,
-        244,
-        262,
-        1329,
-        1380,
+        316,
+        324,
+        568,
+        708,
+        723,
         null
       ],
-      "sum": 3446,
-      "min": 231,
-      "max": 1380,
-      "median": 262,
-      "average": 689.2
+      "sum": 2639,
+      "min": 316,
+      "max": 723,
+      "median": 568,
+      "average": 527.8
     },
     "timeToLastByte": {
       "values": [
-        262,
-        265,
-        298,
-        1358,
-        1407,
+        346,
+        353,
+        614,
+        759,
+        795,
         null
       ],
-      "sum": 3590,
-      "min": 262,
-      "max": 1407,
-      "median": 298,
-      "average": 718
+      "sum": 2867,
+      "min": 346,
+      "max": 795,
+      "median": 614,
+      "average": 573.4
     },
     "ajaxRequests": {
       "values": [
@@ -183,48 +183,48 @@
     },
     "htmlSize": {
       "values": [
-        18000,
-        18000,
-        18000,
-        18000,
-        18000,
+        19432,
+        19432,
+        19432,
+        19432,
+        19432,
         null
       ],
-      "sum": 90000,
-      "min": 18000,
-      "max": 18000,
-      "median": 18000,
-      "average": 18000
+      "sum": 97160,
+      "min": 19432,
+      "max": 19432,
+      "median": 19432,
+      "average": 19432
     },
     "cssCount": {
       "values": [
-        2,
-        2,
-        2,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
+        1,
         null
       ],
-      "sum": 10,
-      "min": 2,
-      "max": 2,
-      "median": 2,
-      "average": 2
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
     },
     "cssSize": {
       "values": [
-        41070,
-        41070,
-        41070,
-        41070,
-        41070,
+        18894,
+        18894,
+        18894,
+        18894,
+        18894,
         null
       ],
-      "sum": 205350,
-      "min": 41070,
-      "max": 41070,
-      "median": 41070,
-      "average": 41070
+      "sum": 94470,
+      "min": 18894,
+      "max": 18894,
+      "median": 18894,
+      "average": 18894
     },
     "jsCount": {
       "values": [
@@ -247,14 +247,14 @@
         1513,
         1513,
         1513,
-        2973,
+        14653,
         null
       ],
-      "sum": 9025,
+      "sum": 20705,
       "min": 1513,
-      "max": 2973,
+      "max": 14653,
       "median": 1513,
-      "average": 1805
+      "average": 4141
     },
     "jsonCount": {
       "values": [
@@ -410,31 +410,31 @@
       "values": [
         0,
         0,
-        1,
-        2,
-        3,
+        0,
+        0,
+        0,
         null
       ],
-      "sum": 6,
+      "sum": 0,
       "min": 0,
-      "max": 3,
-      "median": 1,
-      "average": 1.2
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "otherSize": {
       "values": [
         0,
         0,
-        1,
-        2,
-        3,
+        0,
+        0,
+        0,
         null
       ],
-      "sum": 6,
+      "sum": 0,
       "min": 0,
-      "max": 3,
-      "median": 1,
-      "average": 1.2
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "cacheHits": {
       "values": [
@@ -498,18 +498,18 @@
     },
     "cachingTooShort": {
       "values": [
-        6,
-        6,
-        6,
-        6,
-        6,
+        5,
+        5,
+        5,
+        5,
+        5,
         null
       ],
-      "sum": 30,
-      "min": 6,
-      "max": 6,
-      "median": 6,
-      "average": 6
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
     },
     "cachingDisabled": {
       "values": [
@@ -528,18 +528,18 @@
     },
     "oldCachingHeaders": {
       "values": [
-        7,
-        7,
-        8,
-        9,
-        10,
+        6,
+        6,
+        6,
+        6,
+        6,
         null
       ],
-      "sum": 41,
-      "min": 7,
-      "max": 10,
-      "median": 8,
-      "average": 8.2
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
     },
     "consoleMessages": {
       "values": [
@@ -605,16 +605,16 @@
       "values": [
         30,
         30,
-        30,
+        31,
         31,
         31,
         null
       ],
-      "sum": 152,
+      "sum": 153,
       "min": 30,
       "max": 31,
-      "median": 30,
-      "average": 30.4
+      "median": 31,
+      "average": 30.6
     },
     "documentCookiesCount": {
       "values": [
@@ -663,33 +663,33 @@
     },
     "whiteSpacesSize": {
       "values": [
-        4,
-        4,
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
+        5,
+        5,
         null
       ],
-      "sum": 20,
-      "min": 4,
-      "max": 4,
-      "median": 4,
-      "average": 4
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
     },
     "DOMelementsCount": {
       "values": [
-        53,
-        53,
-        53,
-        53,
-        53,
+        58,
+        58,
+        58,
+        58,
+        58,
         null
       ],
-      "sum": 265,
-      "min": 53,
-      "max": 53,
-      "median": 53,
-      "average": 53
+      "sum": 290,
+      "min": 58,
+      "max": 58,
+      "median": 58,
+      "average": 58
     },
     "DOMelementMaxDepth": {
       "values": [
@@ -963,33 +963,33 @@
     },
     "maxRequestsPerDomain": {
       "values": [
-        6,
-        6,
-        7,
-        8,
-        9,
-        null
-      ],
-      "sum": 36,
-      "min": 6,
-      "max": 9,
-      "median": 7,
-      "average": 7.2
-    },
-    "medianRequestsPerDomain": {
-      "values": [
-        3.5,
-        3.5,
-        4,
-        4.5,
+        5,
+        5,
+        5,
+        5,
         5,
         null
       ],
-      "sum": 20.5,
-      "min": 3.5,
+      "sum": 25,
+      "min": 5,
       "max": 5,
-      "median": 4,
-      "average": 4.1
+      "median": 5,
+      "average": 5
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
     },
     "eventsBound": {
       "values": [
@@ -1038,93 +1038,93 @@
     },
     "headersCount": {
       "values": [
-        103,
-        103,
-        113,
-        126,
-        142,
+        88,
+        88,
+        88,
+        88,
+        88,
         null
       ],
-      "sum": 587,
-      "min": 103,
-      "max": 142,
-      "median": 113,
-      "average": 117.4
+      "sum": 440,
+      "min": 88,
+      "max": 88,
+      "median": 88,
+      "average": 88
     },
     "headersSentCount": {
       "values": [
-        20,
-        20,
-        22,
-        25,
-        29,
+        17,
+        17,
+        17,
+        17,
+        17,
         null
       ],
-      "sum": 116,
-      "min": 20,
-      "max": 29,
-      "median": 22,
-      "average": 23.2
+      "sum": 85,
+      "min": 17,
+      "max": 17,
+      "median": 17,
+      "average": 17
     },
     "headersRecvCount": {
       "values": [
-        83,
-        83,
-        91,
-        101,
-        113,
+        71,
+        71,
+        71,
+        71,
+        71,
         null
       ],
-      "sum": 471,
-      "min": 83,
-      "max": 113,
-      "median": 91,
-      "average": 94.2
+      "sum": 355,
+      "min": 71,
+      "max": 71,
+      "median": 71,
+      "average": 71
     },
     "headersSize": {
       "values": [
-        3431,
-        3431,
-        3763,
-        4157,
-        4588,
+        2964,
+        2964,
+        2964,
+        2964,
+        2964,
         null
       ],
-      "sum": 19370,
-      "min": 3431,
-      "max": 4588,
-      "median": 3763,
-      "average": 3874
+      "sum": 14820,
+      "min": 2964,
+      "max": 2964,
+      "median": 2964,
+      "average": 2964
     },
     "headersSentSize": {
       "values": [
-        776,
-        776,
-        907,
-        1012,
-        1106,
+        671,
+        671,
+        671,
+        671,
+        671,
         null
       ],
-      "sum": 4577,
-      "min": 776,
-      "max": 1106,
-      "median": 907,
-      "average": 915.4
+      "sum": 3355,
+      "min": 671,
+      "max": 671,
+      "median": 671,
+      "average": 671
     },
     "headersRecvSize": {
       "values": [
-        2655,
-        2655,
-        2856,
-        3145,
-        3482,
+        2293,
+        2293,
+        2293,
+        2293,
+        2293,
         null
       ],
-      "sum": 14793,
-      "min": 2655,
-      "max": 3482,
-      "median": 2856,
-      "average": 2958.6
+      "sum": 11465,
+      "min": 2293,
+      "max": 2293,
+      "median": 2293,
+      "average": 2293
     },
     "headersBiggerThanContent": {
       "values": [
@@ -1235,31 +1235,31 @@
       "values": [
         0,
         0,
-        1,
-        2,
-        3,
+        0,
+        0,
+        0,
         null
       ],
-      "sum": 6,
+      "sum": 0,
       "min": 0,
-      "max": 3,
-      "median": 1,
-      "average": 1.2
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "redirectsTime": {
       "values": [
         0,
         0,
-        275,
-        615,
-        773,
+        0,
+        0,
+        0,
         null
       ],
-      "sum": 1663,
+      "sum": 0,
       "min": 0,
-      "max": 773,
-      "median": 275,
-      "average": 332.6
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "assetsNotGzipped": {
       "values": [
@@ -1293,18 +1293,18 @@
     },
     "assetsWithCookies": {
       "values": [
-        5,
-        5,
-        5,
-        5,
-        5,
+        4,
+        4,
+        4,
+        4,
+        4,
         null
       ],
-      "sum": 25,
-      "min": 5,
-      "max": 5,
-      "median": 5,
-      "average": 5
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
     },
     "smallImages": {
       "values": [
@@ -1338,138 +1338,138 @@
     },
     "timeToFirstCss": {
       "values": [
-        954,
-        1228,
-        1777,
-        1795,
-        1908,
+        693,
+        707,
+        708,
+        867,
+        988,
         null
       ],
-      "sum": 7662,
-      "min": 954,
-      "max": 1908,
-      "median": 1777,
-      "average": 1532.4
+      "sum": 3963,
+      "min": 693,
+      "max": 988,
+      "median": 708,
+      "average": 792.6
     },
     "timeToFirstJs": {
       "values": [
-        439,
-        632,
-        636,
-        1482,
-        1519,
+        374,
+        380,
+        507,
+        539,
+        605,
         null
       ],
-      "sum": 4708,
-      "min": 439,
-      "max": 1519,
-      "median": 636,
-      "average": 941.6
+      "sum": 2405,
+      "min": 374,
+      "max": 605,
+      "median": 507,
+      "average": 481
     },
     "timeToFirstImage": {
       "values": [
-        390,
-        617,
-        814,
-        1500,
-        1569,
+        465,
+        496,
+        540,
+        581,
+        675,
         null
       ],
-      "sum": 4890,
-      "min": 390,
-      "max": 1569,
-      "median": 814,
-      "average": 978
+      "sum": 2757,
+      "min": 465,
+      "max": 675,
+      "median": 540,
+      "average": 551.4
     },
     "domInteractive": {
       "values": [
-        703,
-        773,
-        1122,
-        1523,
-        1559,
+        416,
+        443,
+        661,
+        805,
+        835,
         null
       ],
-      "sum": 5680,
-      "min": 703,
-      "max": 1559,
-      "median": 1122,
-      "average": 1136
+      "sum": 3160,
+      "min": 416,
+      "max": 835,
+      "median": 661,
+      "average": 632
     },
     "domContentLoaded": {
       "values": [
-        704,
-        774,
-        1122,
-        1523,
-        1560,
+        416,
+        443,
+        661,
+        806,
+        835,
         null
       ],
-      "sum": 5683,
-      "min": 704,
-      "max": 1560,
-      "median": 1122,
-      "average": 1136.6
+      "sum": 3161,
+      "min": 416,
+      "max": 835,
+      "median": 661,
+      "average": 632.2
     },
     "domContentLoadedEnd": {
       "values": [
-        705,
-        776,
-        1124,
-        1525,
-        1561,
+        418,
+        445,
+        663,
+        807,
+        837,
         null
       ],
-      "sum": 5691,
-      "min": 705,
-      "max": 1561,
-      "median": 1124,
-      "average": 1138.2
+      "sum": 3170,
+      "min": 418,
+      "max": 837,
+      "median": 663,
+      "average": 634
     },
     "domComplete": {
       "values": [
-        1597,
-        1886,
-        1899,
-        1925,
-        2036,
+        745,
+        764,
+        868,
+        1138,
+        1222,
         null
       ],
-      "sum": 9343,
-      "min": 1597,
-      "max": 2036,
-      "median": 1899,
-      "average": 1868.6
+      "sum": 4737,
+      "min": 745,
+      "max": 1222,
+      "median": 868,
+      "average": 947.4
     },
     "timeBackend": {
       "values": [
-        10,
-        11,
-        14,
-        41,
-        42,
+        30,
+        30,
+        37,
+        38,
+        40,
         null
       ],
-      "sum": 118,
-      "min": 10,
-      "max": 42,
-      "median": 14,
-      "average": 23.6
+      "sum": 175,
+      "min": 30,
+      "max": 40,
+      "median": 37,
+      "average": 35
     },
     "timeFrontend": {
       "values": [
-        58,
-        59,
-        86,
-        89,
-        90,
+        60,
+        62,
+        63,
+        70,
+        70,
         null
       ],
-      "sum": 382,
-      "min": 58,
-      "max": 90,
-      "median": 86,
-      "average": 76.4
+      "sum": 325,
+      "min": 60,
+      "max": 70,
+      "median": 63,
+      "average": 65
     },
     "blockedRequests": {
       "values": [
@@ -1533,18 +1533,18 @@
     },
     "bodyHTMLSize": {
       "values": [
-        8058,
-        8058,
-        8058,
-        8058,
-        8058,
+        9496,
+        9496,
+        9496,
+        9496,
+        9496,
         null
       ],
-      "sum": 40290,
-      "min": 8058,
-      "max": 8058,
-      "median": 8058,
-      "average": 8058
+      "sum": 47480,
+      "min": 9496,
+      "max": 9496,
+      "median": 9496,
+      "average": 9496
     },
     "iframesCount": {
       "values": [
@@ -1593,151 +1593,138 @@
     },
     "fastestResponse": {
       "values": [
-        39,
-        45,
-        46,
-        84,
-        98,
+        37,
+        40,
+        41,
+        41,
+        53,
         null
       ],
-      "sum": 312,
-      "min": 39,
-      "max": 98,
-      "median": 46,
-      "average": 62.4
+      "sum": 212,
+      "min": 37,
+      "max": 53,
+      "median": 41,
+      "average": 42.4
     },
     "slowestResponse": {
       "values": [
-        461,
-        777,
-        1348,
-        1358,
-        1407,
+        346,
+        353,
+        614,
+        759,
+        795,
         null
       ],
-      "sum": 5351,
-      "min": 461,
-      "max": 1407,
-      "median": 1348,
-      "average": 1070.2
+      "sum": 2867,
+      "min": 346,
+      "max": 795,
+      "median": 614,
+      "average": 573.4
     },
     "smallestLatency": {
       "values": [
-        39,
-        45,
-        46,
-        64,
-        75,
+        37,
+        40,
+        40,
+        41,
+        53,
         null
       ],
-      "sum": 269,
-      "min": 39,
-      "max": 75,
-      "median": 46,
-      "average": 53.8
+      "sum": 211,
+      "min": 37,
+      "max": 53,
+      "median": 40,
+      "average": 42.2
     },
     "biggestLatency": {
       "values": [
-        338,
-        592,
-        1236,
-        1329,
-        1380,
+        316,
+        324,
+        568,
+        708,
+        723,
         null
       ],
-      "sum": 4875,
-      "min": 338,
-      "max": 1380,
-      "median": 1236,
-      "average": 975
+      "sum": 2639,
+      "min": 316,
+      "max": 723,
+      "median": 568,
+      "average": 527.8
     },
     "medianResponse": {
       "values": [
-        220,
-        243,
-        369,
-        374,
-        542,
+        98.5,
+        135,
+        151,
+        222.5,
+        225,
         null
       ],
-      "sum": 1748,
-      "min": 220,
-      "max": 542,
-      "median": 369,
-      "average": 349.6
+      "sum": 832,
+      "min": 98.5,
+      "max": 225,
+      "median": 151,
+      "average": 166.4
     },
     "medianLatency": {
       "values": [
+        74.5,
+        90.5,
+        96,
+        169.5,
         170,
-        187,
-        220,
-        231,
-        541,
         null
       ],
-      "sum": 1349,
-      "min": 170,
-      "max": 541,
-      "median": 220,
-      "average": 269.8
+      "sum": 600.5,
+      "min": 74.5,
+      "max": 170,
+      "median": 96,
+      "average": 120.1
     }
   },
   "offenders": {
     "gzipRequests": [
-      "http://ivanlagunov.com/ (gzip: 17.58 kB / uncompressed: 17.58 kB)",
+      "http://ivanlagunov.com/ (gzip: 18.98 kB / uncompressed: 18.98 kB)",
       "http://ivanlagunov.com/js/scripts.4926.js (gzip: 0.43 kB / uncompressed: 0.43 kB)",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (gzip: 21.66 kB / uncompressed: 21.66 kB)",
       "http://ivanlagunov.com/css/styles.29f9.css (gzip: 18.45 kB / uncompressed: 18.45 kB)"
     ],
     "htmlCount": [
-      "http://ivanlagunov.com/ (17.58 kB)"
+      "http://ivanlagunov.com/ (18.98 kB)"
     ],
     "cssCount": [
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (21.66 kB)",
       "http://ivanlagunov.com/css/styles.29f9.css (18.45 kB)"
     ],
     "jsCount": [
       "http://ivanlagunov.com/js/scripts.4926.js (0.43 kB)",
-      "http://www.google-analytics.com/analytics.js (1.05 kB)",
-      "http://www.google-analytics.com/analytics.js (2.48 kB)"
+      "http://www.google-analytics.com/analytics.js (13.88 kB)",
+      "http://www.google-analytics.com/analytics.js (1.05 kB)"
     ],
     "imageCount": [
       "http://ivanlagunov.com/img/logo.f71c.png (7.37 kB)",
       "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (62.80 kB)"
-    ],
-    "otherCount": [
-      "http://ivanlagunov.com/ (NaN kB)",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (NaN kB)",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (NaN kB)",
-      "http://ivanlagunov.com/js/scripts.4926.js (NaN kB)",
-      "http://ivanlagunov.com/css/styles.29f9.css (NaN kB)"
     ],
     "cacheHits": [
       "http://www.google-analytics.com/analytics.js"
     ],
     "cachingTooShort": [
       "http://ivanlagunov.com/js/scripts.4926.js cached for 14400 s",
-      "http://www.google-analytics.com/analytics.js cached for 7200 s",
       "http://ivanlagunov.com/img/logo.f71c.png cached for 14400 s",
+      "http://www.google-analytics.com/analytics.js cached for 7200 s",
       "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg cached for 14400 s",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css cached for 14400 s",
       "http://ivanlagunov.com/css/styles.29f9.css cached for 14400 s"
     ],
     "oldCachingHeaders": [
-      "http://ivanlagunov.com/ - Pragma: no-cache",
-      "http://ivanlagunov.com/ - Expires: Tue, 24 Feb 2015 02:14:11 GMT",
-      "http://ivanlagunov.com/js/scripts.4926.js - Expires: Tue, 24 Feb 2015 06:04:12 GMT",
-      "http://www.google-analytics.com/analytics.js - Expires: Tue, 24 Feb 2015 02:46:00 GMT",
-      "http://ivanlagunov.com/img/logo.f71c.png - Expires: Tue, 24 Feb 2015 06:04:12 GMT",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg - Pragma: no-cache",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg - Expires: Tue, 24 Feb 2015 06:04:12 GMT",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css - Expires: Tue, 24 Feb 2015 06:04:13 GMT",
-      "http://ivanlagunov.com/css/styles.29f9.css - Expires: Tue, 24 Feb 2015 06:04:13 GMT",
-      "http://ivanlagunov.com/ - Expires: Tue, 24 Feb 2015 02:14:12 GMT",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css - Expires: Tue, 24 Feb 2015 06:04:12 GMT",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css - Pragma: no-cache",
-      "http://ivanlagunov.com/js/scripts.4926.js - Pragma: no-cache",
-      "http://ivanlagunov.com/css/styles.29f9.css - Pragma: no-cache"
+      "http://ivanlagunov.com/ - Expires: Wed, 25 Feb 2015 02:29:04 GMT",
+      "http://ivanlagunov.com/js/scripts.4926.js - Expires: Wed, 25 Feb 2015 06:19:04 GMT",
+      "http://ivanlagunov.com/img/logo.f71c.png - Expires: Wed, 25 Feb 2015 06:19:04 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Wed, 25 Feb 2015 02:19:08 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg - Expires: Wed, 25 Feb 2015 06:19:04 GMT",
+      "http://ivanlagunov.com/css/styles.29f9.css - Expires: Wed, 25 Feb 2015 06:19:04 GMT",
+      "http://ivanlagunov.com/ - Expires: Wed, 25 Feb 2015 02:29:03 GMT",
+      "http://ivanlagunov.com/js/scripts.4926.js - Expires: Wed, 25 Feb 2015 06:19:03 GMT",
+      "http://ivanlagunov.com/img/logo.f71c.png - Expires: Wed, 25 Feb 2015 06:19:03 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg - Expires: Wed, 25 Feb 2015 06:19:03 GMT",
+      "http://ivanlagunov.com/css/styles.29f9.css - Expires: Wed, 25 Feb 2015 06:19:03 GMT"
     ],
     "domainsWithCookies": [
       "ivanlagunov.com: 1 cookie(s)"
@@ -1763,11 +1750,8 @@
       "tag name \"script\" (in #document): 3 queries"
     ],
     "domains": [
-      "ivanlagunov.com: 8 request(s)",
-      "www.google-analytics.com: 1 request(s)",
-      "ivanlagunov.com: 6 request(s)",
-      "ivanlagunov.com: 7 request(s)",
-      "ivanlagunov.com: 9 request(s)"
+      "ivanlagunov.com: 5 request(s)",
+      "www.google-analytics.com: 1 request(s)"
     ],
     "globalVariables": [
       "loadCSS",
@@ -1782,14 +1766,6 @@
       "x-font-optimizedWebFontsurl",
       "x-font-optimizedWebFontscss"
     ],
-    "redirects": [
-      "http://ivanlagunov.com/ is a redirect (HTTP 302 Moved Temporarily) to / (took 372 ms)",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg is a redirect (HTTP 302 Moved Temporarily) to /img/ivan-lagunov.eac3.jpg (took 243 ms)",
-      "http://ivanlagunov.com/ is a redirect (HTTP 302 Moved Temporarily) to / (took 275 ms)",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css is a redirect (HTTP 302 Moved Temporarily) to /css/optimizedWebFonts.woff.css (took 220 ms)",
-      "http://ivanlagunov.com/js/scripts.4926.js is a redirect (HTTP 302 Moved Temporarily) to /js/scripts.4926.js (took 249 ms)",
-      "http://ivanlagunov.com/css/styles.29f9.css is a redirect (HTTP 302 Moved Temporarily) to /css/styles.29f9.css (took 304 ms)"
-    ],
     "assetsNotGzipped": [
       "http://www.google-analytics.com/analytics.js (JS)"
     ],
@@ -1797,36 +1773,35 @@
       "http://ivanlagunov.com/js/scripts.4926.js (JS)",
       "http://ivanlagunov.com/img/logo.f71c.png (IMAGE)",
       "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (IMAGE)",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (CSS)",
       "http://ivanlagunov.com/css/styles.29f9.css (CSS)"
     ],
     "timeToFirstCss": [
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css received in 1908 ms",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css received in 1777 ms",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css received in 1228 ms",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css received in 954 ms",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css received in 1795 ms"
+      "http://ivanlagunov.com/css/styles.29f9.css received in 693 ms",
+      "http://ivanlagunov.com/css/styles.29f9.css received in 988 ms",
+      "http://ivanlagunov.com/css/styles.29f9.css received in 707 ms",
+      "http://ivanlagunov.com/css/styles.29f9.css received in 867 ms",
+      "http://ivanlagunov.com/css/styles.29f9.css received in 708 ms"
     ],
     "timeToFirstJs": [
-      "http://ivanlagunov.com/js/scripts.4926.js received in 632 ms",
-      "http://ivanlagunov.com/js/scripts.4926.js received in 1519 ms",
-      "http://www.google-analytics.com/analytics.js received in 636 ms",
-      "http://www.google-analytics.com/analytics.js received in 439 ms",
-      "http://ivanlagunov.com/js/scripts.4926.js received in 1482 ms"
+      "http://ivanlagunov.com/js/scripts.4926.js received in 374 ms",
+      "http://ivanlagunov.com/js/scripts.4926.js received in 605 ms",
+      "http://ivanlagunov.com/js/scripts.4926.js received in 507 ms",
+      "http://ivanlagunov.com/js/scripts.4926.js received in 539 ms",
+      "http://ivanlagunov.com/js/scripts.4926.js received in 380 ms"
     ],
     "timeToFirstImage": [
-      "http://ivanlagunov.com/img/logo.f71c.png received in 814 ms",
-      "http://ivanlagunov.com/img/logo.f71c.png received in 1569 ms",
-      "http://ivanlagunov.com/img/logo.f71c.png received in 617 ms",
-      "http://ivanlagunov.com/img/logo.f71c.png received in 390 ms",
-      "http://ivanlagunov.com/img/logo.f71c.png received in 1500 ms"
+      "http://ivanlagunov.com/img/logo.f71c.png received in 465 ms",
+      "http://ivanlagunov.com/img/logo.f71c.png received in 675 ms",
+      "http://ivanlagunov.com/img/logo.f71c.png received in 540 ms",
+      "http://ivanlagunov.com/img/logo.f71c.png received in 581 ms",
+      "http://ivanlagunov.com/img/logo.f71c.png received in 496 ms"
     ],
     "blockedRequests": [
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=953552696&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1975449166&cid=1796727755.1424743451&tid=UA-26697016-1&_r=1&z=1276061791",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=991231090&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=109325458&cid=210207991.1424743452&tid=UA-26697016-1&_r=1&z=404973",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=226563185&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1665140095&cid=990160092.1424743451&tid=UA-26697016-1&_r=1&z=865213805",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1327401662&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=882956271&cid=122526900.1424743451&tid=UA-26697016-1&_r=1&z=1442110235",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1904359450&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=222916465&cid=2040882490.1424743452&tid=UA-26697016-1&_r=1&z=1197932200"
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=947405296&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=3112183&cid=880892510.1424830745&tid=UA-26697016-1&_r=1&z=1664887950",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=568543733&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=509646113&cid=726337460.1424830744&tid=UA-26697016-1&_r=1&z=1976568937",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=400124669&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=507246798&cid=2128975004.1424830744&tid=UA-26697016-1&_r=1&z=397976387",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=60131728&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1106302075&cid=1239033381.1424830744&tid=UA-26697016-1&_r=1&z=416640768",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1970817344&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=196055815&cid=2131837038.1424830745&tid=UA-26697016-1&_r=1&z=1854620852"
     ],
     "smallestResponse": [
       "http://ivanlagunov.com/js/scripts.4926.js (0.43 kB)"
@@ -1835,32 +1810,32 @@
       "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (62.80 kB)"
     ],
     "fastestResponse": [
-      "http://ivanlagunov.com/css/styles.29f9.css (39 ms)",
-      "http://ivanlagunov.com/css/styles.29f9.css (45 ms)",
-      "http://ivanlagunov.com/img/logo.f71c.png (84 ms)",
-      "http://ivanlagunov.com/img/logo.f71c.png (98 ms)",
-      "http://ivanlagunov.com/css/styles.29f9.css (46 ms)"
+      "http://ivanlagunov.com/css/styles.29f9.css (40 ms)",
+      "http://ivanlagunov.com/js/scripts.4926.js (37 ms)",
+      "http://ivanlagunov.com/js/scripts.4926.js (41 ms)",
+      "http://ivanlagunov.com/js/scripts.4926.js (53 ms)",
+      "http://ivanlagunov.com/css/styles.29f9.css (41 ms)"
     ],
     "slowestResponse": [
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (1348 ms)",
-      "http://ivanlagunov.com/ (1407 ms)",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (777 ms)",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (461 ms)",
-      "http://ivanlagunov.com/ (1358 ms)"
+      "http://ivanlagunov.com/ (353 ms)",
+      "http://ivanlagunov.com/ (795 ms)",
+      "http://ivanlagunov.com/ (614 ms)",
+      "http://ivanlagunov.com/ (759 ms)",
+      "http://ivanlagunov.com/ (346 ms)"
     ],
     "smallestLatency": [
-      "http://ivanlagunov.com/css/styles.29f9.css (39 ms)",
-      "http://ivanlagunov.com/css/styles.29f9.css (45 ms)",
-      "http://www.google-analytics.com/analytics.js (64 ms)",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (75 ms)",
-      "http://ivanlagunov.com/css/styles.29f9.css (46 ms)"
+      "http://ivanlagunov.com/css/styles.29f9.css (40 ms)",
+      "http://ivanlagunov.com/js/scripts.4926.js (37 ms)",
+      "http://ivanlagunov.com/js/scripts.4926.js (40 ms)",
+      "http://ivanlagunov.com/js/scripts.4926.js (53 ms)",
+      "http://ivanlagunov.com/css/styles.29f9.css (41 ms)"
     ],
     "biggestLatency": [
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (1236 ms)",
-      "http://ivanlagunov.com/ (1380 ms)",
-      "http://ivanlagunov.com/img/ivan-lagunov.eac3.jpg (592 ms)",
-      "http://ivanlagunov.com/css/optimizedWebFonts.woff.css (338 ms)",
-      "http://ivanlagunov.com/ (1329 ms)"
+      "http://ivanlagunov.com/ (324 ms)",
+      "http://ivanlagunov.com/ (723 ms)",
+      "http://ivanlagunov.com/ (568 ms)",
+      "http://ivanlagunov.com/ (708 ms)",
+      "http://ivanlagunov.com/ (316 ms)"
     ]
   }
 }
