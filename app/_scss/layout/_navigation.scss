@@ -26,6 +26,8 @@ nav {
 
   li {
     margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
     @include breakpoint(smaller-than-small-desktop) {
       margin-left: 9%;
