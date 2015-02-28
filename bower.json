@@ -8,6 +8,7 @@
   "devDependencies": {
     "loadCSS": "git://github.com/filamentgroup/loadCSS.git",
     "OptimizedWebfontLoading": "git://github.com/bdadam/OptimizedWebfontLoading.git",
+    "syntaxhighlighter": "git@github.com:syntaxhighlighter/syntaxhighlighter.git#3.0.83",
     "typesettings": "~2.2.0"
   }
 }

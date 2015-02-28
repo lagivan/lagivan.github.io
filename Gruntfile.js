@@ -17,8 +17,8 @@ module.exports = function (grunt) {
     yeoman: {
       app: 'app',
       dist: 'dist',
-      node_modules: 'node_modules',
-      syntaxhighlighter: '<%= yeoman.node_modules %>/node-syntaxhighlighter/lib'
+      bower_components: '<%= yeoman.app %>/_bower_components',
+      syntaxhighlighter: '<%= yeoman.bower_components %>/syntaxhighlighter'
     },
     devUpdate: {
       check: {
@@ -219,9 +219,8 @@ module.exports = function (grunt) {
     concat: {
       dist: {
         src: [
-          '<%= yeoman.syntaxhighlighter %>/scripts/*.js',
-          '!**/shAutoloader.js',
-          '!**/shLegacy.js'
+          '<%= yeoman.syntaxhighlighter %>/scripts/shCore.js',
+          '<%= yeoman.syntaxhighlighter %>/scripts/shBrush*.js'
         ],
         dest: '<%= yeoman.dist %>/js/syntaxhighlighter.js'
       }
@@ -328,12 +327,12 @@ module.exports = function (grunt) {
       },
       stageLoadCSS: {
         files: {
-          '<%= yeoman.app %>/_includes/loadCSS.js': '<%= yeoman.app %>/_bower_components/loadCSS/loadCSS.js'
+          '<%= yeoman.app %>/_includes/loadCSS.js': '<%= yeoman.bower_components %>/loadCSS/loadCSS.js'
         }
       },
       stageOptimizedWebfontLoading: {
         files: {
-          '<%= yeoman.app %>/_includes/fontloader.js': '<%= yeoman.app %>/_bower_components/OptimizedWebfontLoading/build/fontloader.js'
+          '<%= yeoman.app %>/_includes/fontloader.js': '<%= yeoman.bower_components %>/OptimizedWebfontLoading/build/fontloader.js'
         }
       }
     },
