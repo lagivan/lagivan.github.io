@@ -219,6 +219,7 @@ module.exports = function (grunt) {
     concat: {
       dist: {
         src: [
+          '<%= yeoman.syntaxhighlighter %>/scripts/XRegExp.js',
           '<%= yeoman.syntaxhighlighter %>/scripts/shCore.js',
           '<%= yeoman.syntaxhighlighter %>/scripts/shBrush*.js'
         ],
