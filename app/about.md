@@ -8,7 +8,7 @@ sitemap:
   changefreq: 'monthly'
 ---
 
-Hi, I'm __Ivan Lagunov__ and I’m a __Software Engineer__ specialized in Java EE and XML data transformations.
+Hi, I'm __Ivan Lagunov__ and I’m a __Full Stack Software Engineer__ specialized in Java EE and data transformations but also genuinely interested in all aspects of software technology.
 
 I have a broad range of interests but I'm mostly devoted to IT and software development. In spare time I'm busy writing a programming blog, studying MOOC, doing sports and travelling.
 
