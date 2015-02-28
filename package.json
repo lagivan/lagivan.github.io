@@ -41,7 +41,8 @@
     "grunt-xmlmin": "^0.1.4",
     "jshint-stylish": "^1.0.0",
     "load-grunt-tasks": "^2.0.0",
-    "time-grunt": "^1.0.0"
+    "time-grunt": "^1.0.0",
+    "node-syntaxhighlighter": "^0.8.1"
   },
   "private": true,
   "license": "MIT"

@@ -16,7 +16,9 @@ module.exports = function (grunt) {
     // Configurable paths
     yeoman: {
       app: 'app',
-      dist: 'dist'
+      dist: 'dist',
+      node_modules: 'node_modules',
+      syntaxhighlighter: '<%= yeoman.node_modules %>/node-syntaxhighlighter/lib'
     },
     devUpdate: {
       check: {
@@ -110,7 +112,7 @@ module.exports = function (grunt) {
         files: {
           '.tmp/css/styles.css': '<%= yeoman.app %>/_scss/styles.scss'
         }
-      },
+      }
     },
     autoprefixer: {
       options: {
@@ -160,7 +162,7 @@ module.exports = function (grunt) {
       },
       dist: {
         options: {
-          dest: '<%= yeoman.dist %>',
+          dest: '<%= yeoman.dist %>'
         }
       },
       server: {
@@ -193,7 +195,7 @@ module.exports = function (grunt) {
         }
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
-      css: ['<%= yeoman.dist %>/css/**/*.css'],
+      css: ['<%= yeoman.dist %>/css/**/*.css']
     },
     htmlmin: {
       dist: {
@@ -214,15 +216,36 @@ module.exports = function (grunt) {
       }
     },
     // Usemin adds files to concat
-    concat: {},
+    concat: {
+      dist: {
+        src: [
+          '<%= yeoman.syntaxhighlighter %>/scripts/*.js',
+          '!**/shAutoloader.js',
+          '!**/shLegacy.js'
+        ],
+        dest: '<%= yeoman.dist %>/js/syntaxhighlighter.js'
+      }
+    },
     // Usemin adds files to uglify
-    uglify: {},
+    uglify: {
+      dist: {
+        files: {
+          '<%= concat.dist.dest %>': '<%= concat.dist.dest %>'
+        }
+      }
+    },
     // Usemin adds files to cssmin
     cssmin: {
       dist: {
         options: {
           check: 'min'
-        }
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.syntaxhighlighter %>/styles',
+          src: 'shCore*.css',
+          dest: '<%= yeoman.dist %>/css/syntaxhighlighter'
+        }]
       }
     },
     imageoptim: {
@@ -321,7 +344,7 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           src: [
-            '<%= yeoman.dist %>/js/**/*.js',
+            '<%= yeoman.dist %>/js/scripts.js',
             '<%= yeoman.dist %>/css/styles.css',
             '<%= yeoman.dist %>/favicon*.png',
             '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg}'
