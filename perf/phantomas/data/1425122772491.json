@@ -1,0 +1,1868 @@
+{
+  "assertions": {},
+  "metrics": {
+    "requests": {
+      "values": [
+        6,
+        6,
+        7,
+        7,
+        7,
+        null
+      ],
+      "sum": 33,
+      "min": 6,
+      "max": 7,
+      "median": 7,
+      "average": 6.6
+    },
+    "gzipRequests": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "postRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "httpsRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "notFound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodySize": {
+      "values": [
+        45004,
+        45012,
+        46443,
+        46462,
+        46463,
+        null
+      ],
+      "sum": 229384,
+      "min": 45004,
+      "max": 46463,
+      "median": 46443,
+      "average": 45876.8
+    },
+    "contentLength": {
+      "values": [
+        71147,
+        71147,
+        71148,
+        71148,
+        72578,
+        null
+      ],
+      "sum": 357168,
+      "min": 71147,
+      "max": 72578,
+      "median": 71148,
+      "average": 71433.6
+    },
+    "httpTrafficCompleted": {
+      "values": [
+        3601427,
+        3601637,
+        3601697,
+        3602238,
+        3602289,
+        null
+      ],
+      "sum": 18009288,
+      "min": 3601427,
+      "max": 3602289,
+      "median": 3601697,
+      "average": 3601857.6
+    },
+    "timeToFirstByte": {
+      "values": [
+        283,
+        284,
+        344,
+        424,
+        1306,
+        null
+      ],
+      "sum": 2641,
+      "min": 283,
+      "max": 1306,
+      "median": 344,
+      "average": 528.2
+    },
+    "timeToLastByte": {
+      "values": [
+        312,
+        324,
+        378,
+        458,
+        1343,
+        null
+      ],
+      "sum": 2815,
+      "min": 312,
+      "max": 1343,
+      "median": 378,
+      "average": 563
+    },
+    "ajaxRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "htmlCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "htmlSize": {
+      "values": [
+        21969,
+        21969,
+        21969,
+        21969,
+        21969,
+        null
+      ],
+      "sum": 109845,
+      "min": 21969,
+      "max": 21969,
+      "median": 21969,
+      "average": 21969
+    },
+    "cssCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cssSize": {
+      "values": [
+        18863,
+        18863,
+        18863,
+        18863,
+        18863,
+        null
+      ],
+      "sum": 94315,
+      "min": 18863,
+      "max": 18863,
+      "median": 18863,
+      "average": 18863
+    },
+    "jsCount": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "jsSize": {
+      "values": [
+        2012,
+        2012,
+        2012,
+        2012,
+        3442,
+        null
+      ],
+      "sum": 11490,
+      "min": 2012,
+      "max": 3442,
+      "median": 2012,
+      "average": 2298
+    },
+    "jsonCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsonSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imageCount": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "imageSize": {
+      "values": [
+        28303,
+        28303,
+        28303,
+        28303,
+        28303,
+        null
+      ],
+      "sum": 141515,
+      "min": 28303,
+      "max": 28303,
+      "median": 28303,
+      "average": 28303
+    },
+    "videoCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "videoSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Count": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "base64Size": {
+      "values": [
+        50118,
+        50118,
+        50118,
+        50118,
+        50118,
+        null
+      ],
+      "sum": 250590,
+      "min": 50118,
+      "max": 50118,
+      "median": 50118,
+      "average": 50118
+    },
+    "otherCount": {
+      "values": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 3,
+      "min": 0,
+      "max": 1,
+      "median": 1,
+      "average": 0.6
+    },
+    "otherSize": {
+      "values": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 3,
+      "min": 0,
+      "max": 1,
+      "median": 1,
+      "average": 0.6
+    },
+    "cacheHits": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cacheMisses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachePasses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingNotSpecified": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingTooShort": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "cachingDisabled": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "oldCachingHeaders": {
+      "values": [
+        6,
+        6,
+        7,
+        7,
+        7,
+        null
+      ],
+      "sum": 33,
+      "min": 6,
+      "max": 7,
+      "median": 7,
+      "average": 6.6
+    },
+    "consoleMessages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesSent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesRecv": {
+      "values": [
+        132,
+        132,
+        132,
+        132,
+        132,
+        null
+      ],
+      "sum": 660,
+      "min": 132,
+      "max": 132,
+      "median": 132,
+      "average": 132
+    },
+    "domainsWithCookies": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentCookiesLength": {
+      "values": [
+        30,
+        30,
+        30,
+        31,
+        31,
+        null
+      ],
+      "sum": 152,
+      "min": 30,
+      "max": 31,
+      "median": 30,
+      "average": 30.4
+    },
+    "documentCookiesCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentHeight": {
+      "values": [
+        2336,
+        2336,
+        2336,
+        2336,
+        2336,
+        null
+      ],
+      "sum": 11680,
+      "min": 2336,
+      "max": 2336,
+      "median": 2336,
+      "average": 2336
+    },
+    "commentsSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "whiteSpacesSize": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "DOMelementsCount": {
+      "values": [
+        109,
+        109,
+        109,
+        109,
+        109,
+        null
+      ],
+      "sum": 545,
+      "min": 109,
+      "max": 109,
+      "median": 109,
+      "average": 109
+    },
+    "DOMelementMaxDepth": {
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 45,
+      "min": 9,
+      "max": 9,
+      "median": 9,
+      "average": 9
+    },
+    "nodesWithInlineCSS": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imagesScaledDown": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "imagesWithoutDimensions": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "DOMidDuplicated": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "hiddenContentSize": {
+      "values": [
+        1839,
+        1839,
+        1839,
+        1839,
+        1839,
+        null
+      ],
+      "sum": 9195,
+      "min": 1839,
+      "max": 1839,
+      "median": 1839,
+      "average": 1839
+    },
+    "DOMmutationsInserts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsRemoves": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsAttributes": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueries": {
+      "values": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        null
+      ],
+      "sum": 70,
+      "min": 14,
+      "max": 14,
+      "median": 14,
+      "average": 14
+    },
+    "DOMqueriesById": {
+      "values": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        null
+      ],
+      "sum": 50,
+      "min": 10,
+      "max": 10,
+      "median": 10,
+      "average": 10
+    },
+    "DOMqueriesByClassName": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueriesByTagName": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "DOMqueriesByQuerySelectorAll": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMinserts": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMqueriesDuplicated": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "DOMqueriesAvoidable": {
+      "values": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        null
+      ],
+      "sum": 55,
+      "min": 11,
+      "max": 11,
+      "median": 11,
+      "average": 11
+    },
+    "domains": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "maxRequestsPerDomain": {
+      "values": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 23,
+      "min": 4,
+      "max": 5,
+      "median": 5,
+      "average": 4.6
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "eventsBound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "globalVariables": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "globalVariablesFalsy": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "headersCount": {
+      "values": [
+        89,
+        89,
+        99,
+        102,
+        102,
+        null
+      ],
+      "sum": 481,
+      "min": 89,
+      "max": 102,
+      "median": 99,
+      "average": 96.2
+    },
+    "headersSentCount": {
+      "values": [
+        17,
+        17,
+        19,
+        20,
+        20,
+        null
+      ],
+      "sum": 93,
+      "min": 17,
+      "max": 20,
+      "median": 19,
+      "average": 18.6
+    },
+    "headersRecvCount": {
+      "values": [
+        72,
+        72,
+        80,
+        82,
+        82,
+        null
+      ],
+      "sum": 388,
+      "min": 72,
+      "max": 82,
+      "median": 80,
+      "average": 77.6
+    },
+    "headersSize": {
+      "values": [
+        3045,
+        3060,
+        3377,
+        3426,
+        3445,
+        null
+      ],
+      "sum": 16353,
+      "min": 3045,
+      "max": 3445,
+      "median": 3377,
+      "average": 3270.6
+    },
+    "headersSentSize": {
+      "values": [
+        671,
+        671,
+        776,
+        791,
+        802,
+        null
+      ],
+      "sum": 3711,
+      "min": 671,
+      "max": 802,
+      "median": 776,
+      "average": 742.2
+    },
+    "headersRecvSize": {
+      "values": [
+        2374,
+        2389,
+        2575,
+        2650,
+        2654,
+        null
+      ],
+      "sum": 12642,
+      "min": 2374,
+      "max": 2654,
+      "median": 2575,
+      "average": 2528.4
+    },
+    "headersBiggerThanContent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryOnDOMReadyFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentWriteCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "evalCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsErrors": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "localStorageEntries": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "redirects": {
+      "values": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 3,
+      "min": 0,
+      "max": 1,
+      "median": 1,
+      "average": 0.6
+    },
+    "redirectsTime": {
+      "values": [
+        0,
+        0,
+        205,
+        229,
+        306,
+        null
+      ],
+      "sum": 740,
+      "min": 0,
+      "max": 306,
+      "median": 205,
+      "average": 148
+    },
+    "assetsNotGzipped": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "assetsWithQueryString": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "assetsWithCookies": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "smallImages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "multipleRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "timeToFirstCss": {
+      "values": [
+        495,
+        1119,
+        1403,
+        1516,
+        1638,
+        null
+      ],
+      "sum": 6171,
+      "min": 495,
+      "max": 1638,
+      "median": 1403,
+      "average": 1234.2
+    },
+    "timeToFirstJs": {
+      "values": [
+        412,
+        419,
+        485,
+        1049,
+        1425,
+        null
+      ],
+      "sum": 3790,
+      "min": 412,
+      "max": 1425,
+      "median": 485,
+      "average": 758
+    },
+    "timeToFirstImage": {
+      "values": [
+        355,
+        430,
+        607,
+        740,
+        1367,
+        null
+      ],
+      "sum": 3499,
+      "min": 355,
+      "max": 1367,
+      "median": 607,
+      "average": 699.8
+    },
+    "domInteractive": {
+      "values": [
+        331,
+        386,
+        468,
+        626,
+        1352,
+        null
+      ],
+      "sum": 3163,
+      "min": 331,
+      "max": 1352,
+      "median": 468,
+      "average": 632.6
+    },
+    "domContentLoaded": {
+      "values": [
+        332,
+        387,
+        469,
+        626,
+        1352,
+        null
+      ],
+      "sum": 3166,
+      "min": 332,
+      "max": 1352,
+      "median": 469,
+      "average": 633.2
+    },
+    "domContentLoadedEnd": {
+      "values": [
+        335,
+        392,
+        478,
+        630,
+        1355,
+        null
+      ],
+      "sum": 3190,
+      "min": 335,
+      "max": 1355,
+      "median": 478,
+      "average": 638
+    },
+    "domComplete": {
+      "values": [
+        1474,
+        1712,
+        1809,
+        2303,
+        2345,
+        null
+      ],
+      "sum": 9643,
+      "min": 1474,
+      "max": 2345,
+      "median": 1809,
+      "average": 1928.6
+    },
+    "timeBackend": {
+      "values": [
+        11,
+        16,
+        17,
+        19,
+        36,
+        null
+      ],
+      "sum": 99,
+      "min": 11,
+      "max": 36,
+      "median": 17,
+      "average": 19.8
+    },
+    "timeFrontend": {
+      "values": [
+        64,
+        81,
+        83,
+        84,
+        89,
+        null
+      ],
+      "sum": 401,
+      "min": 64,
+      "max": 89,
+      "median": 83,
+      "average": 80.2
+    },
+    "blockedRequests": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "windowAlerts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowConfirms": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowPrompts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodyHTMLSize": {
+      "values": [
+        15496,
+        15496,
+        15496,
+        15496,
+        15496,
+        null
+      ],
+      "sum": 77480,
+      "min": 15496,
+      "max": 15496,
+      "median": 15496,
+      "average": 15496
+    },
+    "iframesCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallestResponse": {
+      "values": [
+        936,
+        936,
+        936,
+        936,
+        1076,
+        null
+      ],
+      "sum": 4820,
+      "min": 936,
+      "max": 1076,
+      "median": 936,
+      "average": 964
+    },
+    "biggestResponse": {
+      "values": [
+        21969,
+        21969,
+        21969,
+        21969,
+        21969,
+        null
+      ],
+      "sum": 109845,
+      "min": 21969,
+      "max": 21969,
+      "median": 21969,
+      "average": 21969
+    },
+    "fastestResponse": {
+      "values": [
+        40,
+        44,
+        48,
+        114,
+        148,
+        null
+      ],
+      "sum": 394,
+      "min": 40,
+      "max": 148,
+      "median": 48,
+      "average": 78.8
+    },
+    "slowestResponse": {
+      "values": [
+        1137,
+        1286,
+        1335,
+        1343,
+        1661,
+        null
+      ],
+      "sum": 6762,
+      "min": 1137,
+      "max": 1661,
+      "median": 1335,
+      "average": 1352.4
+    },
+    "smallestLatency": {
+      "values": [
+        40,
+        41,
+        44,
+        63,
+        143,
+        null
+      ],
+      "sum": 331,
+      "min": 40,
+      "max": 143,
+      "median": 44,
+      "average": 66.2
+    },
+    "biggestLatency": {
+      "values": [
+        312,
+        499,
+        665,
+        853,
+        1306,
+        null
+      ],
+      "sum": 3635,
+      "min": 312,
+      "max": 1306,
+      "median": 665,
+      "average": 727
+    },
+    "medianResponse": {
+      "values": [
+        135.5,
+        137.5,
+        302,
+        333.5,
+        347.5,
+        null
+      ],
+      "sum": 1256,
+      "min": 135.5,
+      "max": 347.5,
+      "median": 302,
+      "average": 251.2
+    },
+    "medianLatency": {
+      "values": [
+        72.5,
+        83.5,
+        230,
+        271,
+        297,
+        null
+      ],
+      "sum": 954,
+      "min": 72.5,
+      "max": 297,
+      "median": 230,
+      "average": 190.8
+    }
+  },
+  "offenders": {
+    "gzipRequests": [
+      "http://ivanlagunov.com/ (gzip: 21.45 kB / uncompressed: 21.45 kB)",
+      "http://ivanlagunov.com/css/styles.732a.css (gzip: 18.42 kB / uncompressed: 18.42 kB)"
+    ],
+    "htmlCount": [
+      "http://ivanlagunov.com/ (21.45 kB)"
+    ],
+    "cssCount": [
+      "http://ivanlagunov.com/css/styles.732a.css (18.42 kB)"
+    ],
+    "jsCount": [
+      "http://www.google-analytics.com/analytics.js (1.05 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (2.31 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (0.91 kB)"
+    ],
+    "imageCount": [
+      "http://ivanlagunov.com/img/logo.33e4.png (9.08 kB)",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg (18.55 kB)"
+    ],
+    "otherCount": [
+      "http://ivanlagunov.com/ (NaN kB)",
+      "http://ivanlagunov.com/img/logo.33e4.png (NaN kB)",
+      "http://ivanlagunov.com/css/styles.732a.css (NaN kB)"
+    ],
+    "cacheHits": [
+      "http://www.google-analytics.com/analytics.js"
+    ],
+    "cachingTooShort": [
+      "http://ivanlagunov.com/img/logo.33e4.png cached for 432000 s",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg cached for 432000 s",
+      "http://www.google-analytics.com/analytics.js cached for 7200 s",
+      "http://ivanlagunov.com/css/styles.732a.css cached for 432000 s",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts cached for 1 s"
+    ],
+    "oldCachingHeaders": [
+      "http://ivanlagunov.com/ - Pragma: no-cache",
+      "http://ivanlagunov.com/ - Expires: Sat, 28 Feb 2015 11:36:14 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Thu, 05 Mar 2015 11:26:14 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Thu, 05 Mar 2015 11:26:14 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Sat, 28 Feb 2015 11:42:18 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Thu, 05 Mar 2015 11:26:15 GMT",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Sat, 28 Feb 2015 11:26:16 GMT",
+      "http://ivanlagunov.com/ - Expires: Sat, 28 Feb 2015 11:36:13 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Pragma: no-cache",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Sat, 28 Feb 2015 11:26:15 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Pragma: no-cache",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Thu, 05 Mar 2015 11:26:14 GMT",
+      "http://ivanlagunov.com/ - Expires: Sat, 28 Feb 2015 11:36:15 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Thu, 05 Mar 2015 11:26:15 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Thu, 05 Mar 2015 11:26:15 GMT"
+    ],
+    "domainsWithCookies": [
+      "ivanlagunov.com: 1 cookie(s)"
+    ],
+    "imagesScaledDown": [
+      "http://ivanlagunov.com/img/logo.33e4.png (168x168 -> 127x127)",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg (320x320 -> 240x240)"
+    ],
+    "imagesWithoutDimensions": [
+      "body > div.outer-container > div.inner-container.clearfix > header.site-header--outer > div.site-header--inner > div.site-header--primary > a.site-logo.FlexEmbed > img[0] <http://ivanlagunov.com/img/logo.33e4.png>",
+      "body > div.outer-container > div.inner-container.clearfix > aside.secondary.vcard.author.clearfix > img.secondary-photo.media-circle.photo <http://ivanlagunov.com/img/ivan-lagunov.2134.jpg>"
+    ],
+    "hiddenContentSize": [
+      "body > div.outer-container > div.inner-container.clearfix > div#content > script[5] (1206 characters)"
+    ],
+    "DOMqueriesById": [
+      "#content (in #document)"
+    ],
+    "DOMqueriesByTagName": [
+      "script (in #document)",
+      "a (in #document)"
+    ],
+    "DOMinserts": [
+      "\"style\" appended to \"head\"",
+      "\"link\" appended to \"head\"",
+      "\"script\" appended to \"head\""
+    ],
+    "DOMqueriesDuplicated": [
+      "id \"#content\" (in #document): 10 queries",
+      "tag name \"script\" (in #document): 3 queries"
+    ],
+    "domains": [
+      "ivanlagunov.com: 5 request(s)",
+      "www.google-analytics.com: 1 request(s)",
+      "blog.ivanlagunov.com: 1 request(s)",
+      "ivanlagunov.com: 4 request(s)"
+    ],
+    "globalVariables": [
+      "showRecentPosts",
+      "loadCSS",
+      "posts_no",
+      "loadFont",
+      "GoogleAnalyticsObject",
+      "ga",
+      "gaplugins",
+      "gaGlobal"
+    ],
+    "localStorageEntries": [
+      "x-font-optimizedWebFontsurl",
+      "x-font-optimizedWebFontscss"
+    ],
+    "redirects": [
+      "http://ivanlagunov.com/ is a redirect (HTTP 302 Moved Temporarily) to / (took 306 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png is a redirect (HTTP 302 Moved Temporarily) to /img/logo.33e4.png (took 229 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css is a redirect (HTTP 302 Moved Temporarily) to /css/styles.732a.css (took 205 ms)"
+    ],
+    "assetsNotGzipped": [
+      "http://www.google-analytics.com/analytics.js (JS)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (JS)"
+    ],
+    "assetsWithQueryString": [
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (JS)"
+    ],
+    "assetsWithCookies": [
+      "http://ivanlagunov.com/img/logo.33e4.png (IMAGE)",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg (IMAGE)",
+      "http://ivanlagunov.com/css/styles.732a.css (CSS)"
+    ],
+    "timeToFirstCss": [
+      "http://ivanlagunov.com/css/styles.732a.css received in 1119 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 1638 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 1403 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 495 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 1516 ms"
+    ],
+    "timeToFirstJs": [
+      "http://www.google-analytics.com/analytics.js received in 1049 ms",
+      "http://www.google-analytics.com/analytics.js received in 419 ms",
+      "http://www.google-analytics.com/analytics.js received in 485 ms",
+      "http://www.google-analytics.com/analytics.js received in 412 ms",
+      "http://www.google-analytics.com/analytics.js received in 1425 ms"
+    ],
+    "timeToFirstImage": [
+      "http://ivanlagunov.com/img/logo.33e4.png received in 740 ms",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg received in 607 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 430 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 355 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 1367 ms"
+    ],
+    "blockedRequests": [
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=931381916&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1574571906&cid=651803430.1425122775&tid=UA-60147451-1&_r=1&z=808296576",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=550545757&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=456307789&cid=886941476.1425122774&tid=UA-60147451-1&_r=1&z=624653341",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=783814477&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1358095927&cid=1828451109.1425122774&tid=UA-60147451-1&_r=1&z=1474599914",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=692742883&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1152120787&cid=215748643.1425122774&tid=UA-60147451-1&_r=1&z=1595833112",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1726632920&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-us&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1577698407&cid=1104358220.1425122776&tid=UA-60147451-1&_r=1&z=1590228836"
+    ],
+    "smallestResponse": [
+      "http://www.google-analytics.com/analytics.js (1.05 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (0.91 kB)"
+    ],
+    "biggestResponse": [
+      "http://ivanlagunov.com/ (21.45 kB)"
+    ],
+    "fastestResponse": [
+      "http://ivanlagunov.com/css/styles.732a.css (148 ms)",
+      "http://www.google-analytics.com/analytics.js (114 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (48 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (40 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (44 ms)"
+    ],
+    "slowestResponse": [
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1661 ms)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1286 ms)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1335 ms)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1137 ms)",
+      "http://ivanlagunov.com/ (1343 ms)"
+    ],
+    "smallestLatency": [
+      "http://ivanlagunov.com/img/logo.33e4.png (143 ms)",
+      "http://www.google-analytics.com/analytics.js (63 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (44 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (40 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (41 ms)"
+    ],
+    "biggestLatency": [
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (499 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (853 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (665 ms)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (312 ms)",
+      "http://ivanlagunov.com/ (1306 ms)"
+    ]
+  }
+}
