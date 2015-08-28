@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width" name="viewport">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     {% if page.title and page.grouptype != "tag" %}
       <title>{{ page.title }} &ndash; {{ site.title }}</title>
@@ -19,10 +19,14 @@
       <meta content="{{ site.title }}" name="twitter:title">
     {% endif %}
     <meta content="{{ site.title }}" property="og:site_name">
-    {% if page.description %}
+    {% if page.description and page.grouptype != "tag" %}
       <meta content="{{ page.description }}" name="description">
       <meta content="{{ page.description }}" property="og:description">
       <meta content="{{ page.description }}" name="twitter:description">
+    {% elsif page.grouptype == "tag" %}
+      <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="description">
+      <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" property="og:description">
+      <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="twitter:description">
     {% else %}
       <meta content="{{ site.description }}" name="description">
       <meta content="{{ site.description }}" property="og:description">
@@ -73,8 +77,8 @@
       <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
     {% if page.image %}
-      <meta property="og:image" content="{{ site.url }}/img/posts/{{ page.image }}">
-      <meta name="twitter:image:src" content="{{ site.url }}/img/posts/{{ page.image }}">
+      <meta property="og:image" content="{{ site.url }}/img/srcset/{{ page.image }}">
+      <meta name="twitter:image:src" content="{{ site.url }}/img/srcset/{{ page.image }}">
     {% else %}
       <meta property="og:image" content="{{ site.url }}/img/logo-high-resolution.png">
       <meta name="twitter:image:src" content="{{ site.url }}/img/logo-high-resolution.png">
@@ -107,13 +111,21 @@
       </noscript>
     {% endif %}
 
+    <!-- Google Analytics async snippet: http://goo.gl/3FPNDx -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+      <!-- Create the GA tracker before doing any logging -->
       ga('create', 'UA-60147451-1', 'auto');
-      ga('send', 'pageview');
+
+      <!-- Track uncaught errors via Google Analytics -->
+      window.onerror = function(message, url, line, col) {
+        var desc = message + ' (line: ' + line + ', url: ' + url + ', col: ' + col + ')';
+        ga('send', 'exception', {
+          exDescription: 'window.onerror: ' + desc,
+          exFatal: false
+        });
+      };
     </script>
   </head>
   <body class="{{ page.page-class }}">

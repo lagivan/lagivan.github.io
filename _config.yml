@@ -5,13 +5,16 @@
 # it doesn't work, check if it is set in the Gruntfile.
 
 title: 'Ivan Lagunov'
-url: 'http://ivanlagunov.com'
+url: 'http://localhost:3000'
+author: 'Ivan Lagunov'
+twitter: 'lagivan'
+email: 'lagivan@gmail.com'
 description: 'Personal web site of Ivan Lagunov'
 
 environment: development
 
 exclude: ['img', 'js', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.svg', '**.ico']
-keep_files: ['perf']
+keep_files: ['img/srcset', 'perf']
 
 # Publish posts with future date.
 # _config.build.yml sets this to false on `grunt build`

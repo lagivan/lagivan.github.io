@@ -1,7 +1,7 @@
         </div>
 
         <aside class="secondary vcard author clearfix" role="complementary">
-          <img alt="A photo of Ivan Lagunov" class="secondary-photo media-circle photo" src="/img/ivan-lagunov.jpg">
+          <img alt="Ivan Lagunov" class="secondary-photo srcset-secondary media-circle photo" src="/img/srcset/ivan-lagunov.jpg">
           <p>Hi, I’m <strong class="fn">Ivan Lagunov</strong> and I’m a <strong>Software Engineer</strong>. Learn more <a href="/about/" class="url">about me</a>.</p>
           <p>Please don’t hesitate to <a href="mailto:lagivan@gmail.com" class="email">contact me</a> with any comments, questions, or just to say hello!</p>
           <a class="secondary-twitter--link" href="http://twitter.com/lagivan"><span class="secondary-twitter--icon">{% include icons/icon-twitter.svg %}</span>Follow me on Twitter</a>
@@ -40,5 +40,12 @@
       </footer>
     </div>
 
+    <!-- build:js(app) /js/scripts.js -->
+    <script src="/js/_modules/breakpoints-tracking.js"></script>
+    <script src="/js/scripts.js"></script>
+    <!-- endbuild -->
+
+    <!-- Load GA after the `window.ga` is initialized -->
+    <script async src="//www.google-analytics.com/analytics.js"></script>
   </body>
 </html>

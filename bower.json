@@ -3,12 +3,13 @@
   "version": "2.0.0",
   "homepage": "https://github.com/lagivan/lagivan.github.io",
   "description": "Personal web site of Ivan Lagunov",
+  "author": "Ivan Lagunov <lagivan@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "loadCSS": "git://github.com/filamentgroup/loadCSS.git",
+    "loadcss": "~0.1.7",
     "OptimizedWebfontLoading": "git://github.com/bdadam/OptimizedWebfontLoading.git",
-    "syntaxhighlighter": "git@github.com:syntaxhighlighter/syntaxhighlighter.git#3.0.83",
-    "typesettings": "~2.2.0"
+    "syntaxhighlighter": "git://github.com/syntaxhighlighter/syntaxhighlighter.git#3.0.83",
+    "typesettings": "~2.3.3"
   }
 }
