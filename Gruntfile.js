@@ -391,14 +391,10 @@ module.exports = function (grunt) {
         }]
       }
     },
-    imageoptim: {
-      options: {
-        quitAfter: true
-      },
+    imagemin: {
       dist: {
         options: {
-          jpegMini: false,
-          imageAlpha: true
+          progressive: true
         },
         files: [{
           expand: true,
@@ -598,13 +594,13 @@ module.exports = function (grunt) {
     'concurrent:dist',
     //'responsive_images_extender',
     //'responsive_images',
-    'imageoptim',
     'useminPrepare',
     'concat',
     'postcss:dist',
     'csscomb',
     'cssmin',
     'uglify',
+    'newer:imagemin',
     'svgmin',
     'filerev',
     'usemin',
