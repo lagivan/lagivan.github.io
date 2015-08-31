@@ -6,30 +6,30 @@
         6,
         6,
         6,
-        6,
         7,
+        10,
         null
       ],
-      "sum": 31,
+      "sum": 35,
       "min": 6,
-      "max": 7,
+      "max": 10,
       "median": 6,
-      "average": 6.2
+      "average": 7
     },
     "gzipRequests": {
       "values": [
-        2,
-        2,
-        2,
-        2,
-        2,
+        4,
+        4,
+        4,
+        4,
+        4,
         null
       ],
-      "sum": 10,
-      "min": 2,
-      "max": 2,
-      "median": 2,
-      "average": 2
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
     },
     "postRequests": {
       "values": [
@@ -78,78 +78,78 @@
     },
     "bodySize": {
       "values": [
-        45013,
-        45013,
-        45013,
-        47933,
-        49304,
+        166162,
+        171810,
+        173271,
+        184418,
+        200272,
         null
       ],
-      "sum": 232276,
-      "min": 45013,
-      "max": 49304,
-      "median": 45013,
-      "average": 46455.2
+      "sum": 895933,
+      "min": 166162,
+      "max": 200272,
+      "median": 173271,
+      "average": 179186.6
     },
     "contentLength": {
       "values": [
-        71148,
-        71148,
-        71148,
-        72608,
-        75439,
+        183601,
+        189249,
+        189252,
+        203317,
+        216251,
         null
       ],
-      "sum": 361491,
-      "min": 71148,
-      "max": 75439,
-      "median": 71148,
-      "average": 72298.2
+      "sum": 981670,
+      "min": 183601,
+      "max": 216251,
+      "median": 189252,
+      "average": 196334
     },
     "httpTrafficCompleted": {
       "values": [
-        1389,
-        1456,
-        1495,
-        2266,
-        2680,
+        792,
+        796,
+        813,
+        1954,
+        2710,
         null
       ],
-      "sum": 9286,
-      "min": 1389,
-      "max": 2680,
-      "median": 1495,
-      "average": 1857.2
+      "sum": 7065,
+      "min": 792,
+      "max": 2710,
+      "median": 813,
+      "average": 1413
     },
     "timeToFirstByte": {
       "values": [
-        222,
-        272,
-        290,
-        1602,
-        1628,
+        280,
+        281,
+        360,
+        365,
+        390,
         null
       ],
-      "sum": 4014,
-      "min": 222,
-      "max": 1628,
-      "median": 290,
-      "average": 802.8
+      "sum": 1676,
+      "min": 280,
+      "max": 390,
+      "median": 360,
+      "average": 335.2
     },
     "timeToLastByte": {
       "values": [
-        246,
-        304,
-        315,
-        1625,
-        1668,
+        339,
+        340,
+        405,
+        420,
+        430,
         null
       ],
-      "sum": 4158,
-      "min": 246,
-      "max": 1668,
-      "median": 315,
-      "average": 831.6
+      "sum": 1934,
+      "min": 339,
+      "max": 430,
+      "median": 405,
+      "average": 386.8
     },
     "ajaxRequests": {
       "values": [
@@ -243,18 +243,18 @@
     },
     "jsSize": {
       "values": [
-        2013,
-        2013,
-        2013,
-        3473,
-        6303,
+        114466,
+        120113,
+        120113,
+        134182,
+        147116,
         null
       ],
-      "sum": 15815,
-      "min": 2013,
-      "max": 6303,
-      "median": 2013,
-      "average": 3163
+      "sum": 635990,
+      "min": 114466,
+      "max": 147116,
+      "median": 120113,
+      "average": 127198
     },
     "jsonCount": {
       "values": [
@@ -411,30 +411,30 @@
         0,
         0,
         0,
-        0,
         1,
+        4,
         null
       ],
-      "sum": 1,
+      "sum": 5,
       "min": 0,
-      "max": 1,
+      "max": 4,
       "median": 0,
-      "average": 0.2
+      "average": 1
     },
     "otherSize": {
       "values": [
         0,
         0,
         0,
-        0,
         1,
+        4,
         null
       ],
-      "sum": 1,
+      "sum": 5,
       "min": 0,
-      "max": 1,
+      "max": 4,
       "median": 0,
-      "average": 0.2
+      "average": 1
     },
     "cacheHits": {
       "values": [
@@ -531,15 +531,15 @@
         6,
         6,
         6,
-        6,
         7,
+        10,
         null
       ],
-      "sum": 31,
+      "sum": 35,
       "min": 6,
-      "max": 7,
+      "max": 10,
       "median": 6,
-      "average": 6.2
+      "average": 7
     },
     "consoleMessages": {
       "values": [
@@ -633,18 +633,18 @@
     },
     "documentHeight": {
       "values": [
-        2336,
-        2336,
-        2336,
-        2336,
-        2336,
+        2389,
+        2389,
+        2389,
+        2389,
+        2389,
         null
       ],
-      "sum": 11680,
-      "min": 2336,
-      "max": 2336,
-      "median": 2336,
-      "average": 2336
+      "sum": 11945,
+      "min": 2389,
+      "max": 2389,
+      "median": 2389,
+      "average": 2389
     },
     "commentsSize": {
       "values": [
@@ -723,18 +723,18 @@
     },
     "imagesScaledDown": {
       "values": [
-        2,
-        2,
-        2,
-        2,
-        2,
+        0,
+        0,
+        0,
+        0,
+        0,
         null
       ],
-      "sum": 10,
-      "min": 2,
-      "max": 2,
-      "median": 2,
-      "average": 2
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "imagesWithoutDimensions": {
       "values": [
@@ -840,6 +840,21 @@
       "max": 14,
       "median": 14,
       "average": 14
+    },
+    "DOMqueriesWithoutResults": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "DOMqueriesById": {
       "values": [
@@ -966,15 +981,15 @@
         4,
         4,
         4,
-        4,
         5,
+        8,
         null
       ],
-      "sum": 21,
+      "sum": 25,
       "min": 4,
-      "max": 5,
+      "max": 8,
       "median": 4,
-      "average": 4.2
+      "average": 5
     },
     "medianRequestsPerDomain": {
       "values": [
@@ -992,6 +1007,36 @@
       "average": 1
     },
     "eventsBound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "eventsDispatched": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "eventsScrollBound": {
       "values": [
         0,
         0,
@@ -1038,95 +1083,110 @@
     },
     "headersCount": {
       "values": [
-        89,
-        89,
-        89,
-        89,
-        99,
+        90,
+        90,
+        90,
+        100,
+        139,
         null
       ],
-      "sum": 455,
-      "min": 89,
-      "max": 99,
-      "median": 89,
-      "average": 91
+      "sum": 509,
+      "min": 90,
+      "max": 139,
+      "median": 90,
+      "average": 101.8
     },
     "headersSentCount": {
       "values": [
         17,
         17,
         17,
-        17,
         19,
+        28,
         null
       ],
-      "sum": 87,
+      "sum": 98,
       "min": 17,
-      "max": 19,
+      "max": 28,
       "median": 17,
-      "average": 17.4
+      "average": 19.6
     },
     "headersRecvCount": {
       "values": [
-        72,
-        72,
-        72,
-        72,
-        80,
+        73,
+        73,
+        73,
+        81,
+        111,
         null
       ],
-      "sum": 368,
-      "min": 72,
-      "max": 80,
-      "median": 72,
-      "average": 73.6
+      "sum": 411,
+      "min": 73,
+      "max": 111,
+      "median": 73,
+      "average": 82.2
     },
     "headersSize": {
       "values": [
-        3044,
-        3044,
-        3044,
-        3044,
-        3376,
+        3099,
+        3099,
+        3099,
+        3432,
+        4582,
         null
       ],
-      "sum": 15552,
-      "min": 3044,
-      "max": 3376,
-      "median": 3044,
-      "average": 3110.4
+      "sum": 17311,
+      "min": 3099,
+      "max": 4582,
+      "median": 3099,
+      "average": 3462.2
     },
     "headersSentSize": {
       "values": [
-        671,
-        671,
-        671,
-        671,
-        802,
+        677,
+        677,
+        677,
+        809,
+        1142,
         null
       ],
-      "sum": 3486,
-      "min": 671,
-      "max": 802,
-      "median": 671,
-      "average": 697.2
+      "sum": 3982,
+      "min": 677,
+      "max": 1142,
+      "median": 677,
+      "average": 796.4
     },
     "headersRecvSize": {
       "values": [
-        2373,
-        2373,
-        2373,
-        2373,
-        2574,
+        2422,
+        2422,
+        2422,
+        2623,
+        3440,
         null
       ],
-      "sum": 12066,
-      "min": 2373,
-      "max": 2574,
-      "median": 2373,
-      "average": 2413.2
+      "sum": 13329,
+      "min": 2422,
+      "max": 3440,
+      "median": 2422,
+      "average": 2665.8
     },
     "headersBiggerThanContent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryVersionsLoaded": {
       "values": [
         0,
         0,
@@ -1156,7 +1216,82 @@
       "median": 0,
       "average": 0
     },
+    "jQueryWindowOnLoadFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
     "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryEventTriggers": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMReads": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWrites": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWriteReadSwitches": {
       "values": [
         0,
         0,
@@ -1216,6 +1351,21 @@
       "median": 0,
       "average": 0
     },
+    "closedConnections": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
     "localStorageEntries": {
       "values": [
         2,
@@ -1236,45 +1386,105 @@
         0,
         0,
         0,
-        0,
         1,
+        4,
         null
       ],
-      "sum": 1,
+      "sum": 5,
       "min": 0,
-      "max": 1,
+      "max": 4,
       "median": 0,
-      "average": 0.2
+      "average": 1
     },
     "redirectsTime": {
       "values": [
         0,
         0,
         0,
-        0,
-        372,
+        365,
+        1583,
         null
       ],
-      "sum": 372,
+      "sum": 1948,
       "min": 0,
-      "max": 372,
+      "max": 1583,
       "median": 0,
-      "average": 74.4
+      "average": 389.6
+    },
+    "repaints": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "firstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "requestsToDomContentLoaded": {
+      "values": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        null
+      ],
+      "sum": 7,
+      "min": 1,
+      "max": 2,
+      "median": 1,
+      "average": 1.4
+    },
+    "requestsToDomComplete": {
+      "values": [
+        6,
+        6,
+        6,
+        7,
+        10,
+        null
+      ],
+      "sum": 35,
+      "min": 6,
+      "max": 10,
+      "median": 6,
+      "average": 7
     },
     "assetsNotGzipped": {
       "values": [
-        2,
-        2,
-        2,
-        2,
-        2,
+        0,
+        0,
+        0,
+        0,
+        0,
         null
       ],
-      "sum": 10,
-      "min": 2,
-      "max": 2,
-      "median": 2,
-      "average": 2
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
     },
     "assetsWithQueryString": {
       "values": [
@@ -1321,6 +1531,36 @@
       "median": 0,
       "average": 0
     },
+    "smallCssFiles": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallJsFiles": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
     "multipleRequests": {
       "values": [
         0,
@@ -1338,138 +1578,138 @@
     },
     "timeToFirstCss": {
       "values": [
-        541,
-        639,
-        728,
-        1823,
-        1843,
+        755,
+        779,
+        793,
+        1069,
+        2367,
         null
       ],
-      "sum": 5574,
-      "min": 541,
-      "max": 1843,
-      "median": 728,
-      "average": 1114.8
+      "sum": 5763,
+      "min": 755,
+      "max": 2367,
+      "median": 793,
+      "average": 1152.6
     },
     "timeToFirstJs": {
       "values": [
-        459,
-        496,
-        744,
-        1765,
-        1791,
+        514,
+        648,
+        673,
+        1088,
+        1304,
         null
       ],
-      "sum": 5255,
-      "min": 459,
-      "max": 1791,
-      "median": 744,
-      "average": 1051
+      "sum": 4227,
+      "min": 514,
+      "max": 1304,
+      "median": 673,
+      "average": 845.4
     },
     "timeToFirstImage": {
       "values": [
-        338,
-        348,
-        578,
-        1649,
-        1719,
+        504,
+        510,
+        511,
+        800,
+        1590,
         null
       ],
-      "sum": 4632,
-      "min": 338,
-      "max": 1719,
-      "median": 578,
-      "average": 926.4
+      "sum": 3915,
+      "min": 504,
+      "max": 1590,
+      "median": 511,
+      "average": 783
     },
     "domInteractive": {
       "values": [
-        308,
-        319,
-        624,
-        1630,
-        1674,
+        415,
+        428,
+        429,
+        717,
+        1066,
         null
       ],
-      "sum": 4555,
-      "min": 308,
-      "max": 1674,
-      "median": 624,
-      "average": 911
+      "sum": 3055,
+      "min": 415,
+      "max": 1066,
+      "median": 429,
+      "average": 611
     },
     "domContentLoaded": {
       "values": [
-        308,
-        320,
-        624,
-        1630,
-        1674,
+        416,
+        429,
+        429,
+        718,
+        1067,
         null
       ],
-      "sum": 4556,
-      "min": 308,
-      "max": 1674,
-      "median": 624,
-      "average": 911.2
+      "sum": 3059,
+      "min": 416,
+      "max": 1067,
+      "median": 429,
+      "average": 611.8
     },
     "domContentLoadedEnd": {
       "values": [
-        311,
-        323,
-        628,
-        1633,
-        1677,
+        418,
+        431,
+        433,
+        720,
+        1070,
         null
       ],
-      "sum": 4572,
-      "min": 311,
-      "max": 1677,
-      "median": 628,
-      "average": 914.4
+      "sum": 3072,
+      "min": 418,
+      "max": 1070,
+      "median": 433,
+      "average": 614.4
     },
     "domComplete": {
       "values": [
-        1431,
-        1498,
-        1606,
-        2337,
+        838,
+        843,
+        862,
+        2001,
         2782,
         null
       ],
-      "sum": 9654,
-      "min": 1431,
+      "sum": 7326,
+      "min": 838,
       "max": 2782,
-      "median": 1606,
-      "average": 1930.8
+      "median": 862,
+      "average": 1465.2
     },
     "timeBackend": {
       "values": [
+        9,
         12,
-        15,
-        17,
-        37,
-        41,
+        29,
+        30,
+        32,
         null
       ],
-      "sum": 122,
-      "min": 12,
-      "max": 41,
-      "median": 17,
-      "average": 24.4
+      "sum": 112,
+      "min": 9,
+      "max": 32,
+      "median": 29,
+      "average": 22.4
     },
     "timeFrontend": {
       "values": [
-        59,
-        63,
-        83,
-        85,
+        68,
+        70,
+        71,
         88,
+        91,
         null
       ],
-      "sum": 378,
-      "min": 59,
-      "max": 88,
-      "median": 83,
-      "average": 75.6
+      "sum": 388,
+      "min": 68,
+      "max": 91,
+      "median": 71,
+      "average": 77.6
     },
     "blockedRequests": {
       "values": [
@@ -1533,18 +1773,18 @@
     },
     "bodyHTMLSize": {
       "values": [
-        15496,
-        15496,
-        15496,
-        15496,
-        15496,
+        15602,
+        15602,
+        15602,
+        15602,
+        15602,
         null
       ],
-      "sum": 77480,
-      "min": 15496,
-      "max": 15496,
-      "median": 15496,
-      "average": 15496
+      "sum": 78010,
+      "min": 15602,
+      "max": 15602,
+      "median": 15602,
+      "average": 15602
     },
     "iframesCount": {
       "values": [
@@ -1563,129 +1803,134 @@
     },
     "smallestResponse": {
       "values": [
-        936,
-        936,
-        936,
-        936,
-        1077,
+        9303,
+        9303,
+        9303,
+        9303,
+        9303,
         null
       ],
-      "sum": 4821,
-      "min": 936,
-      "max": 1077,
-      "median": 936,
-      "average": 964.2
+      "sum": 46515,
+      "min": 9303,
+      "max": 9303,
+      "median": 9303,
+      "average": 9303
     },
     "biggestResponse": {
       "values": [
-        21969,
-        21969,
-        21969,
-        21969,
-        21969,
+        89214,
+        94861,
+        94861,
+        108930,
+        121864,
         null
       ],
-      "sum": 109845,
-      "min": 21969,
-      "max": 21969,
-      "median": 21969,
-      "average": 21969
+      "sum": 509730,
+      "min": 89214,
+      "max": 121864,
+      "median": 94861,
+      "average": 101946
     },
     "fastestResponse": {
       "values": [
-        44,
-        46,
-        46,
-        55,
-        60,
+        86,
+        92,
+        98,
+        98,
+        251,
         null
       ],
-      "sum": 251,
-      "min": 44,
-      "max": 60,
-      "median": 46,
-      "average": 50.2
+      "sum": 625,
+      "min": 86,
+      "max": 251,
+      "median": 98,
+      "average": 125
     },
     "slowestResponse": {
       "values": [
-        972,
-        1092,
-        1171,
-        1625,
-        1668,
+        405,
+        420,
+        430,
+        1265,
+        1671,
         null
       ],
-      "sum": 6528,
-      "min": 972,
-      "max": 1668,
-      "median": 1171,
-      "average": 1305.6
+      "sum": 4191,
+      "min": 405,
+      "max": 1671,
+      "median": 430,
+      "average": 838.2
     },
     "smallestLatency": {
       "values": [
-        34,
-        38,
-        39,
-        54,
-        60,
+        85,
+        91,
+        95,
+        97,
+        251,
         null
       ],
-      "sum": 225,
-      "min": 34,
-      "max": 60,
-      "median": 39,
-      "average": 45
+      "sum": 619,
+      "min": 85,
+      "max": 251,
+      "median": 95,
+      "average": 123.8
     },
     "biggestLatency": {
       "values": [
-        271,
-        318,
-        324,
-        1602,
-        1628,
+        360,
+        365,
+        390,
+        1265,
+        1614,
         null
       ],
-      "sum": 4143,
-      "min": 271,
-      "max": 1628,
-      "median": 324,
-      "average": 828.6
+      "sum": 3994,
+      "min": 360,
+      "max": 1614,
+      "median": 390,
+      "average": 798.8
     },
     "medianResponse": {
       "values": [
-        158.5,
-        177.5,
-        177.5,
-        178,
-        219.5,
+        194.5,
+        255,
+        268.5,
+        298,
+        305.5,
         null
       ],
-      "sum": 911,
-      "min": 158.5,
-      "max": 219.5,
-      "median": 177.5,
-      "average": 182.2
+      "sum": 1321.5,
+      "min": 194.5,
+      "max": 305.5,
+      "median": 268.5,
+      "average": 264.3
     },
     "medianLatency": {
       "values": [
-        107,
-        110,
-        114,
-        139.5,
-        158,
+        152.5,
+        210.5,
+        221,
+        228.5,
+        275.5,
         null
       ],
-      "sum": 628.5,
-      "min": 107,
-      "max": 158,
-      "median": 114,
-      "average": 125.7
+      "sum": 1088,
+      "min": 152.5,
+      "max": 275.5,
+      "median": 221,
+      "average": 217.6
     }
   },
   "offenders": {
     "gzipRequests": [
       "http://ivanlagunov.com/ (gzip: 21.45 kB / uncompressed: 21.45 kB)",
-      "http://ivanlagunov.com/css/styles.732a.css (gzip: 18.42 kB / uncompressed: 18.42 kB)"
+      "http://www.google-analytics.com/analytics.js (gzip: 24.66 kB / uncompressed: 24.66 kB)",
+      "http://ivanlagunov.com/css/styles.732a.css (gzip: 18.42 kB / uncompressed: 18.42 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (gzip: 92.64 kB / uncompressed: 92.64 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (gzip: 87.12 kB / uncompressed: 87.12 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (gzip: 106.38 kB / uncompressed: 106.38 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (gzip: 119.01 kB / uncompressed: 119.01 kB)"
     ],
     "htmlCount": [
       "http://ivanlagunov.com/ (21.45 kB)"
@@ -1694,46 +1939,72 @@
       "http://ivanlagunov.com/css/styles.732a.css (18.42 kB)"
     ],
     "jsCount": [
-      "http://www.google-analytics.com/analytics.js (1.05 kB)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (0.91 kB)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (5.10 kB)",
-      "http://www.google-analytics.com/analytics.js (2.48 kB)"
+      "http://www.google-analytics.com/analytics.js (24.66 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (92.64 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (87.12 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (106.38 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (119.01 kB)"
     ],
     "imageCount": [
       "http://ivanlagunov.com/img/logo.33e4.png (9.08 kB)",
       "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg (18.55 kB)"
     ],
+    "otherCount": [
+      "http://ivanlagunov.com/ (NaN kB)",
+      "http://ivanlagunov.com/img/logo.33e4.png (NaN kB)",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg (NaN kB)",
+      "http://ivanlagunov.com/css/styles.732a.css (NaN kB)"
+    ],
     "cacheHits": [
       "http://www.google-analytics.com/analytics.js"
     ],
     "cachingTooShort": [
+      "http://www.google-analytics.com/analytics.js cached for 7200 s",
       "http://ivanlagunov.com/img/logo.33e4.png cached for 432000 s",
       "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg cached for 432000 s",
-      "http://www.google-analytics.com/analytics.js cached for 7200 s",
       "http://ivanlagunov.com/css/styles.732a.css cached for 432000 s",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts cached for 1 s"
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts cached for 2 s"
     ],
     "oldCachingHeaders": [
-      "http://ivanlagunov.com/ - Expires: Sun, 01 Mar 2015 00:00:11 GMT",
-      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Thu, 05 Mar 2015 23:50:11 GMT",
-      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Thu, 05 Mar 2015 23:50:11 GMT",
-      "http://www.google-analytics.com/analytics.js - Expires: Sun, 01 Mar 2015 01:42:18 GMT",
-      "http://ivanlagunov.com/css/styles.732a.css - Expires: Thu, 05 Mar 2015 23:50:11 GMT",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Sat, 28 Feb 2015 23:50:12 GMT",
       "http://ivanlagunov.com/ - Pragma: no-cache",
-      "http://ivanlagunov.com/ - Expires: Sun, 01 Mar 2015 00:00:12 GMT",
-      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Thu, 05 Mar 2015 23:50:12 GMT",
-      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Thu, 05 Mar 2015 23:50:12 GMT",
-      "http://ivanlagunov.com/css/styles.732a.css - Expires: Thu, 05 Mar 2015 23:50:12 GMT",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Sat, 28 Feb 2015 23:50:14 GMT",
-      "http://ivanlagunov.com/css/styles.732a.css - Expires: Thu, 05 Mar 2015 23:50:13 GMT"
+      "http://ivanlagunov.com/ - Expires: Mon, 31 Aug 2015 08:48:07 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Mon, 31 Aug 2015 08:38:11 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Pragma: no-cache",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Pragma: no-cache",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Sat, 05 Sep 2015 08:38:08 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Sat, 05 Sep 2015 08:38:08 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Pragma: no-cache",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Sat, 05 Sep 2015 08:38:09 GMT",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Mon, 31 Aug 2015 08:38:10 GMT",
+      "http://ivanlagunov.com/ - Expires: Mon, 31 Aug 2015 08:48:11 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Sat, 05 Sep 2015 08:38:11 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Sat, 05 Sep 2015 08:38:11 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Sat, 05 Sep 2015 08:38:12 GMT",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Mon, 31 Aug 2015 08:38:12 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Mon, 31 Aug 2015 10:38:11 GMT",
+      "http://ivanlagunov.com/ - Expires: Mon, 31 Aug 2015 08:48:14 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Sat, 05 Sep 2015 08:38:15 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Sat, 05 Sep 2015 08:38:15 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Sat, 05 Sep 2015 08:38:15 GMT",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Mon, 31 Aug 2015 08:38:16 GMT",
+      "http://ivanlagunov.com/ - Expires: Mon, 31 Aug 2015 08:48:17 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Sat, 05 Sep 2015 08:38:17 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Sat, 05 Sep 2015 08:38:17 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Sat, 05 Sep 2015 08:38:17 GMT",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Mon, 31 Aug 2015 08:38:18 GMT",
+      "http://ivanlagunov.com/ - Expires: Mon, 31 Aug 2015 08:48:19 GMT",
+      "http://ivanlagunov.com/img/logo.33e4.png - Expires: Sat, 05 Sep 2015 08:38:19 GMT",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg - Expires: Sat, 05 Sep 2015 08:38:19 GMT",
+      "http://ivanlagunov.com/css/styles.732a.css - Expires: Sat, 05 Sep 2015 08:38:20 GMT",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts - Expires: Mon, 31 Aug 2015 08:38:20 GMT"
     ],
     "domainsWithCookies": [
       "ivanlagunov.com: 1 cookie(s)"
     ],
-    "imagesScaledDown": [
-      "http://ivanlagunov.com/img/logo.33e4.png (168x168 -> 127x127)",
-      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg (320x320 -> 240x240)"
+    "DOMelementMaxDepth": [
+      "body > div.outer-container > div.inner-container.clearfix > header.site-header--outer > div.site-header--inner > div.site-header--secondary > nav.main-navigation > ul.main-navigation--list.list-inline > li[0] > a.nav-home",
+      "body > div.outer-container > div.inner-container.clearfix > header.site-header--outer > div.site-header--inner > div.site-header--secondary > nav.main-navigation > ul.main-navigation--list.list-inline > li[1] > a.nav-blog",
+      "body > div.outer-container > div.inner-container.clearfix > header.site-header--outer > div.site-header--inner > div.site-header--secondary > nav.main-navigation > ul.main-navigation--list.list-inline > li[2] > a.nav-about"
     ],
     "imagesWithoutDimensions": [
       "body > div.outer-container > div.inner-container.clearfix > header.site-header--outer > div.site-header--inner > div.site-header--primary > a.site-logo.FlexEmbed > img[0] <http://ivanlagunov.com/img/logo.33e4.png>",
@@ -1750,19 +2021,20 @@
       "a (in #document)"
     ],
     "DOMinserts": [
-      "\"style\" appended to \"head\"",
-      "\"link\" appended to \"head\"",
-      "\"script\" appended to \"head\""
+      "\"head > style[40]\" appended to \"head\"",
+      "\"head > link[39]\" appended to \"head\"",
+      "\"head > script[40]\" appended to \"head\""
     ],
     "DOMqueriesDuplicated": [
       "id \"#content\" (in #document): 10 queries",
       "tag name \"script\" (in #document): 3 queries"
     ],
     "domains": [
-      "ivanlagunov.com: 4 request(s)",
+      "ivanlagunov.com: 8 request(s)",
       "www.google-analytics.com: 1 request(s)",
       "blog.ivanlagunov.com: 1 request(s)",
-      "ivanlagunov.com: 5 request(s)"
+      "ivanlagunov.com: 5 request(s)",
+      "ivanlagunov.com: 4 request(s)"
     ],
     "globalVariables": [
       "showRecentPosts",
@@ -1778,9 +2050,12 @@
       "x-font-optimizedWebFontsurl",
       "x-font-optimizedWebFontscss"
     ],
-    "assetsNotGzipped": [
-      "http://www.google-analytics.com/analytics.js (JS)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (JS)"
+    "redirects": [
+      "http://ivanlagunov.com/ is a redirect (HTTP 302 Moved Temporarily) to / (took 703 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png is a redirect (HTTP 302 Moved Temporarily) to /img/logo.33e4.png (took 267 ms)",
+      "http://ivanlagunov.com/img/ivan-lagunov.2134.jpg is a redirect (HTTP 302 Moved Temporarily) to /img/ivan-lagunov.2134.jpg (took 330 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css is a redirect (HTTP 302 Moved Temporarily) to /css/styles.732a.css (took 283 ms)",
+      "http://ivanlagunov.com/ is a redirect (HTTP 302 Moved Temporarily) to / (took 365 ms)"
     ],
     "assetsWithQueryString": [
       "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (JS)"
@@ -1791,72 +2066,68 @@
       "http://ivanlagunov.com/css/styles.732a.css (CSS)"
     ],
     "timeToFirstCss": [
-      "http://ivanlagunov.com/css/styles.732a.css received in 541 ms",
-      "http://ivanlagunov.com/css/styles.732a.css received in 639 ms",
-      "http://ivanlagunov.com/css/styles.732a.css received in 728 ms",
-      "http://ivanlagunov.com/css/styles.732a.css received in 1823 ms",
-      "http://ivanlagunov.com/css/styles.732a.css received in 1843 ms"
+      "http://ivanlagunov.com/css/styles.732a.css received in 2367 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 1069 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 793 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 755 ms",
+      "http://ivanlagunov.com/css/styles.732a.css received in 779 ms"
     ],
     "timeToFirstJs": [
-      "http://www.google-analytics.com/analytics.js received in 496 ms",
-      "http://www.google-analytics.com/analytics.js received in 459 ms",
-      "http://www.google-analytics.com/analytics.js received in 744 ms",
-      "http://www.google-analytics.com/analytics.js received in 1765 ms",
-      "http://www.google-analytics.com/analytics.js received in 1791 ms"
+      "http://www.google-analytics.com/analytics.js received in 1304 ms",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts received in 1088 ms",
+      "http://www.google-analytics.com/analytics.js received in 673 ms",
+      "http://www.google-analytics.com/analytics.js received in 514 ms",
+      "http://www.google-analytics.com/analytics.js received in 648 ms"
     ],
     "timeToFirstImage": [
-      "http://ivanlagunov.com/img/logo.33e4.png received in 348 ms",
-      "http://ivanlagunov.com/img/logo.33e4.png received in 338 ms",
-      "http://ivanlagunov.com/img/logo.33e4.png received in 578 ms",
-      "http://ivanlagunov.com/img/logo.33e4.png received in 1649 ms",
-      "http://ivanlagunov.com/img/logo.33e4.png received in 1719 ms"
+      "http://ivanlagunov.com/img/logo.33e4.png received in 1590 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 800 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 504 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 510 ms",
+      "http://ivanlagunov.com/img/logo.33e4.png received in 511 ms"
     ],
     "blockedRequests": [
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1290454513&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=226433300&cid=878262951.1425167411&tid=UA-60147451-1&_r=1&z=903520852",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1166254949&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=2067509867&cid=1375886303.1425167411&tid=UA-60147451-1&_r=1&z=417408712",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=735226687&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=1246018047&cid=1135726704.1425167411&tid=UA-60147451-1&_r=1&z=1204851607",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=340031326&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=361766650&cid=1877369529.1425167412&tid=UA-60147451-1&_r=1&z=856007853",
-      "http://www.google-analytics.com/r/collect?v=1&_v=j33&a=1228676566&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=32-bit&sr=1366x768&vp=1280x1024&je=0&_u=AEAAAEQAI~&jid=115810611&cid=1750516104.1425167412&tid=UA-60147451-1&_r=1&z=1090219206"
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315952166&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=2100943932&cid=1226134746.1441010286&tid=UA-60147451-1&_r=1&z=1082543914",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1860484078&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=661678859&cid=2085065224.1441010291&tid=UA-60147451-1&_r=1&z=603540905",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=439536099&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=2036831463&cid=518055086.1441010294&tid=UA-60147451-1&_r=1&z=562734000",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=934023464&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1573190610&cid=1507345141.1441010296&tid=UA-60147451-1&_r=1&z=478798123",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1490663782&t=pageview&_s=1&dl=http%3A%2F%2Fivanlagunov.com%2F&ul=en-gb&de=UTF-8&dt=Ivan%20Lagunov&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=860480615&cid=1624135552.1441010298&tid=UA-60147451-1&_r=1&z=1013197037"
     ],
     "smallestResponse": [
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (0.91 kB)",
-      "http://www.google-analytics.com/analytics.js (1.05 kB)"
+      "http://ivanlagunov.com/img/logo.33e4.png (9.08 kB)"
     ],
     "biggestResponse": [
-      "http://ivanlagunov.com/ (21.45 kB)"
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (92.64 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (87.12 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (106.38 kB)",
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (119.01 kB)"
     ],
     "fastestResponse": [
-      "http://ivanlagunov.com/img/logo.33e4.png (44 ms)",
-      "http://ivanlagunov.com/img/logo.33e4.png (46 ms)",
-      "http://ivanlagunov.com/css/styles.732a.css (60 ms)",
-      "http://ivanlagunov.com/css/styles.732a.css (55 ms)"
+      "http://ivanlagunov.com/css/styles.732a.css (251 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (98 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (86 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (92 ms)"
     ],
     "slowestResponse": [
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1092 ms)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1171 ms)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (972 ms)",
-      "http://ivanlagunov.com/ (1625 ms)",
-      "http://ivanlagunov.com/ (1668 ms)"
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1671 ms)",
+      "http://www.google-analytics.com/analytics.js (1265 ms)",
+      "http://ivanlagunov.com/ (420 ms)",
+      "http://ivanlagunov.com/ (405 ms)",
+      "http://ivanlagunov.com/ (430 ms)"
     ],
     "smallestLatency": [
-      "http://ivanlagunov.com/img/logo.33e4.png (34 ms)",
-      "http://ivanlagunov.com/img/logo.33e4.png (38 ms)",
-      "http://ivanlagunov.com/img/logo.33e4.png (39 ms)",
-      "http://ivanlagunov.com/css/styles.732a.css (60 ms)",
-      "http://ivanlagunov.com/css/styles.732a.css (54 ms)"
+      "http://ivanlagunov.com/css/styles.732a.css (251 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (97 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (85 ms)",
+      "http://ivanlagunov.com/css/styles.732a.css (91 ms)",
+      "http://ivanlagunov.com/img/logo.33e4.png (95 ms)"
     ],
     "biggestLatency": [
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (318 ms)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (324 ms)",
-      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (271 ms)",
-      "http://ivanlagunov.com/ (1602 ms)",
-      "http://ivanlagunov.com/ (1628 ms)"
-    ],
-    "otherCount": [
-      "http://ivanlagunov.com/ (NaN kB)"
-    ],
-    "redirects": [
-      "http://ivanlagunov.com/ is a redirect (HTTP 302 Moved Temporarily) to / (took 372 ms)"
+      "http://blog.ivanlagunov.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showRecentPosts (1614 ms)",
+      "http://www.google-analytics.com/analytics.js (1265 ms)",
+      "http://ivanlagunov.com/ (360 ms)",
+      "http://ivanlagunov.com/ (365 ms)",
+      "http://ivanlagunov.com/ (390 ms)"
     ]
   }
 }
