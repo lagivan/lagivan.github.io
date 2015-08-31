@@ -21,6 +21,7 @@ Thumbs.db
 *.tar
 *.zip
 dist
+build
 node_modules
 .tmp
 bower_components
