@@ -12,7 +12,7 @@ This website runs on [Jekyll](http://jekyllrb.com/), a blog-aware, static site g
 - OS X: Ensure that [Command Line Tools for Xcode](https://developer.apple.com/xcode/) is installed and up-to-date
     - To install: `xcode-select --install`
 - Windows: Ensure that Visual C++ component is installed, e.g.
-    - To install: MS Visual Studio Express 2015 for Windows Desktop
+    - To install: [Visual Studio Express for Desktop](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
     - To set environmental variable: GYP_MSVS_VERSION=2015 (should match Visual Studio Express version)
 - Manage your Ruby environments with [RVM](https://rvm.io/) or [rbenv](https://github.com/sstephenson/rbenv)
     - To update RVM: `rvm get stable`
