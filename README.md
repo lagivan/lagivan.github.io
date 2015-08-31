@@ -9,11 +9,15 @@ This website runs on [Jekyll](http://jekyllrb.com/), a blog-aware, static site g
 - [Ruby](http://www.ruby-lang.org/): Required for Jekyll.
 
 ### Recommended Setup
-- Ensure that [Command Line Tools for Xcode](https://developer.apple.com/xcode/) is installed and up-to-date
+- OS X: Ensure that [Command Line Tools for Xcode](https://developer.apple.com/xcode/) is installed and up-to-date
     - To install: `xcode-select --install`
-- Manage your Ruby enviroments with [RVM](https://rvm.io/) or [rbenv](https://github.com/sstephenson/rbenv)
+- Windows: Ensure that Visual C++ component is installed, e.g.
+    - To install: MS Visual Studio Express 2015 for Windows Desktop
+    - To set environmental variable: GYP_MSVS_VERSION=2015 (should match Visual Studio Express version)
+- Manage your Ruby environments with [RVM](https://rvm.io/) or [rbenv](https://github.com/sstephenson/rbenv)
     - To update RVM: `rvm get stable`
 - Make sure your installs of [Node.js](http://nodejs.org/) and [NPM](https://npmjs.org/) are up-to-date
+    - Windows: Make sure to install NPM 3.x using [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 - Install the command line interface for [Grunt](http://gruntjs.com/)
     - To install: `npm install -g grunt-cli`
 - Install [Bower](http://bower.io/)
@@ -24,6 +28,7 @@ This website runs on [Jekyll](http://jekyllrb.com/), a blog-aware, static site g
 
 ## Install Dependencies
 Run the following commands to install the dependencies:
+
 - Bower: `bower install`
 - Bundler: `bundle install`
 - NPM: `npm cache clean` and then `npm install`
