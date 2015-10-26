@@ -17,8 +17,7 @@ module.exports = function (grunt) {
     yeoman: {
       app: 'app',
       dist: 'dist',
-      bower_components: '<%= yeoman.app %>/_bower_components',
-      syntaxhighlighter: '<%= yeoman.bower_components %>/syntaxhighlighter'
+      syntaxhighlighter: 'bower_components/syntaxhighlighter'
     },
     devUpdate: {
       check: {
