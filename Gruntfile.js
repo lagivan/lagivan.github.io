@@ -19,20 +19,12 @@ module.exports = function (grunt) {
       dist: 'dist',
       syntaxhighlighter: 'bower_components/syntaxhighlighter'
     },
-    devUpdate: {
-      check: {
-        options: {
-          reportUpdated: false,
-          updateType: 'report'
-        }
-      }
-    },
     watch: {
       sass: {
         files: ['<%= yeoman.app %>/_scss/**/*.scss'],
         tasks: ['sass', 'postcss:server', 'penthouse']
       },
-      autoprefixer: {
+      postcss: {
         files: ['<%= yeoman.app %>/css/styles.css'],
         tasks: ['copy:stageCss', 'postcss:server']
       },
@@ -116,7 +108,7 @@ module.exports = function (grunt) {
     postcss: {
       options: {
         processors: [
-          require('autoprefixer-core')({browsers: 'last 2 versions, safari 6, ie 9, opera 12.1, ios 6, android 4'})
+          require('autoprefixer')({browsers: 'last 2 versions, safari 6, ie 9, opera 12.1, ios 6, android 4'})
         ]
       },
       dist: {
@@ -157,7 +149,8 @@ module.exports = function (grunt) {
       server: {
         options: {
           config: '_config.yml',
-          dest: '.jekyll'
+          dest: '.jekyll',
+          incremental: true
         }
       },
       check: {
@@ -230,17 +223,15 @@ module.exports = function (grunt) {
     // Usemin adds files to cssmin
     // https://github.com/jakubpawlowicz/clean-css
     cssmin: {
-      dist: {
-        options: {
-          check: 'min',
-          shorthandCompacting: false
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.syntaxhighlighter %>/styles',
-          src: 'shCore*.css',
-          dest: '<%= yeoman.dist %>/css/syntaxhighlighter'
-        }]
+      options: {
+        check: 'min',
+        shorthandCompacting: false
+      },
+      files: {
+        expand: true,
+        cwd: '<%= yeoman.syntaxhighlighter %>/styles',
+        src: 'shCore*.css',
+        dest: '<%= yeoman.dist %>/css/syntaxhighlighter'
       }
     },
     responsive_images: {
@@ -272,6 +263,7 @@ module.exports = function (grunt) {
     },
     responsive_images_extender: {
       options: {
+        baseDir: '<%= yeoman.dist %>',
         ignore: ['.srcset-ignore'],
         srcset: [{
           suffix: '-160',
@@ -385,7 +377,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: ['**/*.html', '!perf/**/*.html'],
+          src: ['!(perf)/*.html'],
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -398,7 +390,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: '**/*.{gif,jpg,jpeg,png}',
+          src: ['**/*.{png}', '**/*.{jpg}'], // https://github.com/gruntjs/grunt-contrib-imagemin/issues/208 ?
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -495,11 +487,7 @@ module.exports = function (grunt) {
       all: [
         'Gruntfile.js',
         '<%= yeoman.app %>/js/**/*.js'
-      ],
-      test: ['test/*.js']
-    },
-    casperjs: {
-      all: ['test/tests.js']
+      ]
     },
     pagespeed: {
       options: {
@@ -569,12 +557,10 @@ module.exports = function (grunt) {
     'jshint:test',
     'clean:server',
     'concurrent:server',
-    'browserSync:server',
-    'casperjs'
+    'browserSync:server'
   ]);
 
   grunt.registerTask('check', [
-    'devUpdate',
     'clean:server',
     'jekyll:check',
     'scsslint',
@@ -591,15 +577,15 @@ module.exports = function (grunt) {
     'stage',
     'jekyll:dist',
     'concurrent:dist',
-    //'responsive_images_extender',
-    //'responsive_images',
+    'responsive_images_extender',
+    'responsive_images',
+    'imagemin',
     'useminPrepare',
     'concat',
     'postcss:dist',
     'csscomb',
     'cssmin',
     'uglify',
-    'newer:imagemin',
     'svgmin',
     'filerev',
     'usemin',
@@ -608,7 +594,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('deploy', [
-    'perf',
+    //'perf',
     'build',
     'buildcontrol'
   ]);

@@ -7,9 +7,9 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "loadcss": "~0.1.7",
+    "loadcss": "~0.2.4",
     "OptimizedWebfontLoading": "git://github.com/bdadam/OptimizedWebfontLoading.git",
     "syntaxhighlighter": "git://github.com/syntaxhighlighter/syntaxhighlighter.git#3.0.83",
-    "typesettings": "~2.3.3"
+    "typesettings": "~3.0.0"
   }
 }
