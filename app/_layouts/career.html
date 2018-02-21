@@ -1,0 +1,44 @@
+---
+page-class: page-career
+---
+{% include header.html %}
+<article class="post hentry clearfix">
+  <header class="entry-header">
+    <h1 class="entry-title">{{ page.title }}</h1>
+  </header>
+  <div class="entry-content">
+    <p>{{ page.description }}</p>
+    <h2>Требования</h2>
+    <ul>
+      {% for requirement in page.requirements %}
+      <li>{{requirement}}</li>
+      {% endfor %}
+    </ul>
+    <h2>Условия</h2>
+    <ul>
+      {% for condition in page.conditions %}
+      <li>{{condition}}</li>
+      {% endfor %}
+    </ul>
+    <p>Город и адрес офиса: {{ page.location }}</p>
+    <p>Формат работы: {{ page.format }}</p>
+    <p>Занятость: {{ page.employment }}</p>
+    <p>Заказчик: {{ page.client }}</p>
+    <p>Контакты для связи: <a href="mailto:lagivan@gmail.com" class="email">Email</a> или <a href="tg://resolve?domain=lagivan">Telegram</a></p>
+  </div>
+  <footer class="entry-meta entry-meta--footer">
+    {% if page.tags != empty %}
+    <div class="entry-meta--footer__bottom">
+      {% if page.tags != empty %}
+        <span class="entry-meta--icon">
+          {% include icons/icon-tag.svg %}
+        </span>
+        {% for tag in page.tags %}
+          <a class="nav-link--tag" rel="tag">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+    {% endif %}
+  </footer>
+</article>
+{% include footer.html %}

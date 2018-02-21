@@ -32,5 +32,9 @@ gems: ['jekyll-paginate']
 permalink: /:year/:month/:title/
 paginate: 5
 
+collections:
+  careers:
+    output: true
+
 # disable this with ''
 excerpt_separator: ''

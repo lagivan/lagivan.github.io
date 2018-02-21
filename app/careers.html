@@ -1,0 +1,20 @@
+---
+layout: default
+title: Careers
+permalink: /careers/
+page-class: page-careers
+sitemap:
+  priority: 0.1
+  changefreq: 'monthly'
+---
+<article class="page clearfix">
+  <header class="entry-header">
+    <h1 class="entry-title">Careers</h1>
+  </header>
+  <div class="entry-content">
+    <p>We're looking for talents. Find your opportunity here!</p>
+    {% for career in site.careers %}
+      <h2><a href="{{ career.url }}" rel="bookmark" title="Permalink to {{ career.title }}">{{ career.title }}</a></h2>
+    {% endfor %}
+  </div>
+</article>
