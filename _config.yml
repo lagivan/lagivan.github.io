@@ -27,10 +27,11 @@ show_drafts: true
 category_title_prefix: ''
 category_dir: /
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate-v2']
 
-permalink: /:year/:month/:title/
-paginate: 5
+pagination:
+  permalink: /:year/:month/:title/
+  per_page: 5
 
 collections:
   careers:
