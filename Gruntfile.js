@@ -5,6 +5,7 @@
 //   sass: _scss
 //   javascript: js
 //   images: img
+const sass = require('node-sass');
 
 module.exports = function (grunt) {
   // Show elapsed time after tasks run
@@ -96,6 +97,7 @@ module.exports = function (grunt) {
     },
     sass: {
       options: {
+        implementation: sass,
         precision: 5,
         sourceMap: false
       },
