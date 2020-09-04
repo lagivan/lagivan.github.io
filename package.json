@@ -45,7 +45,7 @@
     "grunt-xmlmin": "0.1.8",
     "jshint-stylish": "2.2.1",
     "load-grunt-tasks": "5.0.0",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "time-grunt": "2.0.0"
   },
   "browserslist": [
