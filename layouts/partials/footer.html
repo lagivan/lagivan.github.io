@@ -1,0 +1,31 @@
+<footer class="site-footer clearfix" role="contentinfo">
+  <div class="site-footer--secondary">
+    <ul class="site-footer--icons list-inline">
+      <li class="site-footer--icons__item">
+        <a class="site-footer--icons__anchor site-footer--icons__icon" href="https://twitter.com/lagivan">
+          {{ partial "svg" "twitter" }}
+          <span class="site-footer--icons--title">Twitter</span>
+        </a>
+      </li>
+      <li class="site-footer--icons__item">
+        <a class="site-footer--icons__anchor site-footer--icons__icon" href="https://github.com/lagivan">
+          {{ partial "svg" "github" }}
+          <span class="site-footer--icons--title">GitHub</span>
+        </a>
+      </li>
+      <li class="site-footer--icons__item">
+        <a class="site-footer--icons__anchor site-footer--icons__icon" href="https://www.linkedin.com/in/lagivan">
+          {{ partial "svg" "linkedin" }}
+          <span class="site-footer--icons--title">LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="site-footer--primary clearfix">
+    <p class="site-footer--copyright">&copy; 2015–{{ now.Format "2006" }} Ivan Lagunov. All rights reserved.</p>
+    <a class="site-footer--feed" href="/feed.xml" title="Subscribe to my RSS feed">
+      {{ partial "svg" "rss" }}
+      <span class="visuallyhidden">RSS Feed</span>
+    </a>
+  </div>
+</footer>

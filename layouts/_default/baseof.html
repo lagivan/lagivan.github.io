@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="outer-container">
+      <div class="inner-container clearfix">
+        {{ partial "header.html" . }}
+        <div class="primary" id="content">
+          <article class="page clearfix">
+            {{ block "main" . }}{{ end }}
+          </article>
+        </div>
+        {{ partial "vcard.html" . }}
+      </div>
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

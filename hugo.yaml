@@ -1,0 +1,45 @@
+baseURL: https://ivanlagunov.com
+languageCode: en
+title: Ivan Lagunov
+summaryLength: 20
+disableKinds:
+  - taxonomy
+
+params:
+  description: Personal web site of Ivan Lagunov
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: false
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: feed
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+security:
+  enableInlineShortcodes: false
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*

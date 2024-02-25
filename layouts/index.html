@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<div class="wrapper">
+  <div class="content">
+    {{ $script := resources.Get "js/recentposts.js" }}
+    <script src="{{ $script.RelPermalink }}"></script>
+    <script async src="https://blog.ivanlagunov.com/feeds/posts/default?orderby=published&amp;alt=json-in-script&amp;callback=showRecentPosts"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+  </div>
+</div>
+
+{{ end }}

@@ -1,11 +1,4 @@
-.*/
-.DS_Store*
-dist
-build
-node_modules
-.tmp
-bower_components
-app/_includes/critical.css
-.jekyll-metadata
-.idea/
-*.iml
+.DS_Store
+.hugo_build.lock
+/public/
+/resources/_gen/

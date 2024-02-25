@@ -1,0 +1,38 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} &ndash; {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ if (eq .Type "blog") }}{{ .Summary | truncate 130 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  {{ if .Params.noindex }}
+  <meta name="robots" content="noindex">
+  {{ end }}
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  <meta name="twitter:site" content="@lagivan">
+
+  {{ if .Params.external_url }}
+  <link rel="canonical" href="{{ .Params.external_url }}">
+  {{ else }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ end }}
+
+  {{ with .OutputFormats.Get "RSS" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  {{ "<!-- Favicons -->" | safeHTML }}
+  {{ "<!-- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->" | safeHTML }}
+  <link rel="icon" href="/assets/favicons/favicon.ico" sizes="32x32"><!-- 32×32 -->
+  <link rel="icon" href="/assets/favicons/icon.svg" type="image/svg+xml"><!-- 16×16 -->
+  <link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png"><!-- 180×180 -->
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+
+  {{ "<!-- Styles -->" | safeHTML }}
+  {{ $options := (dict "targetPath" "styles.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+  {{ $style := resources.Get "scss/styles.scss" | toCSS $options }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+</head>
