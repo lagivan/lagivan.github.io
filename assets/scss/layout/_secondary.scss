@@ -27,46 +27,54 @@
   }
 }
 
-.secondary-twitter--link {
-
-  &:hover {
-
-    .secondary-twitter--icon {
-
-      .icon-foreground {
-        fill: $color-link--color__hover;
-      }
-    }
-  }
-
-  &:focus {
-
-    .secondary-twitter--icon {
-
-      .icon-foreground {
-        fill: $color-link--color__focus;
-      }
-    }
-  }
+.secondary--icons {
+  text-align: center;
 }
 
-.secondary-twitter--icon {
-  position: relative;
-  top: 4px;
-  display: inline-block;
-  margin-right: 4px;
-  width: 20px;
-  height: 20px;
-  line-height: 0;
-  transition: all 0.25s;
-  backface-visibility: hidden;
+.secondary--icons__anchor {
+  display: block;
+  color: inherit;
 
   .icon {
-    width: inherit;
-    height: inherit;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+    backface-visibility: hidden;
   }
 
   .icon-foreground {
     fill: $color-link--color;
+  }
+
+  .secondary--icons--title {
+    @extend %font-open-sans-semibold;
+    font-size: 85%;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.2s;
+    backface-visibility: hidden;
+  }
+
+  &:hover,
+  &:focus {
+    color: inherit;
+
+    .icon-twitter--foreground {
+      fill: $color-twitter;
+    }
+    .icon-github--foreground {
+      fill: $color-github;
+    }
+    .icon-linkedin--foreground {
+      fill: $color-linkedin;
+    }
+
+    .icon {
+      transform: scale(1.2);
+    }
+
+    .secondary--icons--title {
+      opacity: 1;
+    }
   }
 }
