@@ -111,3 +111,30 @@
     margin-left: 0.5em;
   }
 }
+
+.contact-form {
+  label {
+    display: block;
+  }
+
+  input {
+    max-width: 18em;
+  }
+
+  textarea {
+    max-width: 36em;
+    min-height: 5em;
+  }
+}
+
+.contact-form--field {
+  display: block;
+  margin-block-end: 1em;
+  padding: 0.5em;
+  width: 100%;
+  border: 1px solid rgba(166,166,166,0.5);
+}
+
+.contact-form--submit {
+  @extend %button;
+}
