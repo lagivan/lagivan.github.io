@@ -3,26 +3,22 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm __Ivan Lagunov__ and I’m a __Senior IT Consultant__ and __R&D Team Lead__. Together with my team we specialize
-in solving complex enterprise problems and developing high quality solutions. Our area of expertise covers Frontend and
-Backend Web/Mobile Development and DevOps. We offer excellent services in software development and consultancy.
+Passionate about technology and innovation, I lead the __R&D team__ at __ZNAPZ__, where we tackle complex problems and develop 
+high-quality solutions. My expertise spans across __frontend and backend web development__, __mobile app development__, __DevOps__, 
+and __cloud technologies__. Currently, I'm focused on leading the development of cutting-edge solutions within the 
+enterprise asset management domain, particularly centered around __IBM Maximo__.
 
-I have a broad range of interests but I'm mostly devoted to IT and software development. I'm genuinely interested in all
-aspects of software technology and have deep knowledge of Java EE, SQL/NoSQL databases, XML-related technologies,
-Semantic Web, algorithms and data structures. In spare time I'm busy self-learning, writing a programming blog, doing
-sports and travelling.
+While my interests are diverse, my heart lies in IT and technical management. I'm constantly learning and expanding my 
+knowledge across various technologies, like the potential of AI in streamlining enterprise processes, along with modern 
+trends and leadership aspects. Outside of work, I enjoy spending time with my wonderful wife and son, learning new 
+things, staying active through sports, and exploring the world through travel.
 
-I was born in Izhevsk, a small industrial city in European Russia. At the end of the secondary school I found myself
-rather keen on programming. In 2004 I entered my alma mater [St. Petersburg National Research University of Information Technologies, Mechanics and Optics](http://en.ifmo.ru/en/page/47/Public_and_professional_recognition.htm)
-which I graduated 6 years later with an advanced knowledge of Computer Science. In 2006 I started a professional career
-in St. Petersburg. In 2012-2016 I lived in the country with the best bicycle culture (the Netherlands, of course) working
-for a leading global semiconductor company NXP. Since I moved back to St. Petersburg, I'm busy working with external
-customers and managing a small R&D team.
+Born and raised in Izhevsk, Russia, I discovered my passion for programming during my high school years. In 2004, I 
+began my academic journey at [St. Petersburg National Research University of Information Technologies, Mechanics and Optics](http://en.ifmo.ru/en/page/47/Public_and_professional_recognition.htm), 
+graduating six years later with a Master's degree in Computer Science. My professional career kicked off in 
+St. Petersburg in 2006, and I later relocated to the Netherlands. Over the years, I've gained invaluable experience 
+working with diverse clients, leading distributed teams, and delivering impactful projects.
 
-## Contact
-
-If you have any questions, comments, or would just like to say hello, please don't hesitate to [drop me a line](mailto:lagivan@gmail.com).
-
-## Credits
+### Credits
 
 This website’s theme was originally developed by [David Ensinger](http://davidensinger.github.io/).
